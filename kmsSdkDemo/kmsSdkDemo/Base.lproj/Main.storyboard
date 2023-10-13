@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kmsSdkDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wr2-HR-Rjg" userLabel="ViewHeader">
+                                <rect key="frame" x="0.0" y="0.0" width="1112" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KMS SDK DEMO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mub-lD-h3D">
+                                        <rect key="frame" x="338" y="40" width="436.5" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
+                                        <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Bwj-NU-HVe"/>
+                                    <constraint firstItem="Mub-lD-h3D" firstAttribute="top" secondItem="wr2-HR-Rjg" secondAttribute="top" constant="40" id="wQg-dR-dWo"/>
+                                    <constraint firstItem="Mub-lD-h3D" firstAttribute="centerX" secondItem="wr2-HR-Rjg" secondAttribute="centerX" id="y67-Hz-ZUu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0l4-yf-fcT" userLabel="ViewTopLineSeperatorBar">
+                                <rect key="frame" x="0.0" y="125" width="1112" height="3"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="kgo-Cj-djc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CP4-7f-7kx" userLabel="ViewLeftPanel">
+                                <rect key="frame" x="0.0" y="128" width="350" height="706"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyM-6c-FKd">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="706"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="XXf-bF-DQA">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="1287"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPS-qm-wcF" userLabel="ViewStartSvcGrp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="64"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWq-Kr-9BG" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                <rect key="frame" x="67.5" y="18" width="215" height="28"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="cAb-Py-AgE"/>
+                                                                </constraints>
+                                                                <color key="tintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="kms.startServices">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="kms.startServices"/>
+                                                                    </attributedString>
+                                                                </state>
+                                                                <buttonConfiguration key="configuration" style="filled">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="startServices">
+                                                                            <attributes>
+                                                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </buttonConfiguration>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="0.0"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                        <real key="value" value="0.0"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="selectStartSvcsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POL-Ag-wZl"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="64" id="8d0-3Q-OCR"/>
+                                                            <constraint firstAttribute="width" constant="350" id="BhU-ip-82t"/>
+                                                            <constraint firstItem="HWq-Kr-9BG" firstAttribute="centerY" secondItem="UPS-qm-wcF" secondAttribute="centerY" id="ji1-68-eYC">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                        <integer key="value" value="25"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                            <constraint firstItem="HWq-Kr-9BG" firstAttribute="centerX" secondItem="UPS-qm-wcF" secondAttribute="centerX" id="zwf-Qd-u2M"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tuB-PU-ZPf" userLabel="ViewSep1">
+                                                        <rect key="frame" x="0.0" y="65" width="350" height="3"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="3" id="MRZ-5C-pB5"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79U-hH-XMw" userLabel="ViewControlsGrp">
+                                                        <rect key="frame" x="0.0" y="69" width="350" height="283"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7.5" translatesAutoresizingMaskIntoConstraints="NO" id="JHZ-Zb-eSd">
+                                                                <rect key="frame" x="67.5" y="20" width="215" height="244.5"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cub-a2-T1L" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="Ci8-mb-yq1"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="VuW-um-e7i"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="whoAmI">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectWhoAmIPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yc-ZU-h4x"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ww0-Tw-ZQN" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="42" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="5ax-S2-mSR"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="sMo-6O-nNe"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="showControls">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectShowControlsPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5tT-cL-7FF"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp5-H3-FJ1" userLabel="Select Hide Controls Btn" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="84" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="Q4T-Cz-8yj"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="UNi-Kk-Poo"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="hideControls">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectHideControlsPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c6U-5w-TUg"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMk-fb-85G" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="126" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="QA8-D3-5X2"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="Qqr-4h-rjb"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="openPortal">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectOpenPortalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZsN-VA-pKF"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ald-oM-mCA" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="168" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="FDv-ES-Fs5"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="eXY-DR-1NJ"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="userAuth">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectUserAuthPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lj0-Qh-OLL"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLt-O5-3Kz" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="210" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="Bct-oQ-yDe"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="ByC-2U-B2t"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="clearUser">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectClearUserPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mu7-EX-5hM"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="283" id="GSA-QS-9ix"/>
+                                                            <constraint firstItem="JHZ-Zb-eSd" firstAttribute="top" secondItem="79U-hH-XMw" secondAttribute="top" constant="20" symbolic="YES" id="TPL-0b-Khj"/>
+                                                            <constraint firstAttribute="width" constant="350" id="hR9-VR-N1a"/>
+                                                            <constraint firstItem="JHZ-Zb-eSd" firstAttribute="centerX" secondItem="79U-hH-XMw" secondAttribute="centerX" id="q7d-m4-siI"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3m-dE-59f" userLabel="ViewSep2">
+                                                        <rect key="frame" x="0.0" y="353" width="350" height="3"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="3" id="3Jj-m4-NaY"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ez-wM-5HG" userLabel="ViewDockGrp">
+                                                        <rect key="frame" x="0.0" y="357" width="350" height="282"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="PKI-1Q-wMS">
+                                                                <rect key="frame" x="67.5" y="20" width="215" height="242"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nc4-SN-jlR" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="2el-yp-lwf"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="MWd-Me-FXm"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="dockPairingStatus">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectdockPairingStatusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jG-UW-1nw"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwz-LH-Fh4" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="41.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="Pre-Kk-YgA"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="tXb-wl-56Z"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="dockPairingInfo">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectdockPairingInfoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nGB-py-acU"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-yL-u67" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="83" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="9cH-St-n1W"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="jN3-ES-YeE"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="dockUnlock">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectdockUnlockPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="949-OY-5bJ"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbJ-NE-bER" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="124.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="2Fe-hF-ERz"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="TAa-kx-60e"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="unlockButtonState">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectUnlockButtonStatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P7b-zb-BWg"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3s-Dr-eiz" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="166" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="DD9-nW-LB9"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="y4k-9A-SkD"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="dockStatus">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectDockStatusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFO-nc-Ka9"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gad-sf-aCc" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="207.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="EPw-CY-5Om"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="a1t-M2-niJ"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="dockInfo">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectDockInfoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UyA-D4-pdu"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="PKI-1Q-wMS" firstAttribute="top" secondItem="5ez-wM-5HG" secondAttribute="top" constant="20" symbolic="YES" id="H9V-LR-Ek5"/>
+                                                            <constraint firstItem="PKI-1Q-wMS" firstAttribute="centerY" secondItem="5ez-wM-5HG" secondAttribute="centerY" id="M45-be-TRg"/>
+                                                            <constraint firstAttribute="height" constant="282" id="rc2-bi-Hsc"/>
+                                                            <constraint firstItem="PKI-1Q-wMS" firstAttribute="centerX" secondItem="5ez-wM-5HG" secondAttribute="centerX" id="w2T-xP-fVp"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hn7-zt-c5E" userLabel="ViewSep3">
+                                                        <rect key="frame" x="0.0" y="640" width="350" height="3"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="3" id="mnM-1S-acC"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1V-NV-CSY" userLabel="ViewMetricsGrp">
+                                                        <rect key="frame" x="0.0" y="644" width="350" height="115"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="pLZ-mk-PjI">
+                                                                <rect key="frame" x="67.5" y="20" width="215" height="76"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgA-sZ-1cS" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="CG7-Ig-KLb"/>
+                                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34.5" id="THV-71-Y8a"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="postMetric">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectPostMetricPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cut-fa-OMX"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFA-Sk-Ds2" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="41.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="APT-gp-vP4"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="VOM-MM-00K"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="getMetric">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectGetMetricPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zb2-c7-38d"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="pLZ-mk-PjI" firstAttribute="top" secondItem="U1V-NV-CSY" secondAttribute="top" constant="20" id="bPs-Du-NG9"/>
+                                                            <constraint firstAttribute="height" constant="115" id="dIF-KP-jqN"/>
+                                                            <constraint firstItem="pLZ-mk-PjI" firstAttribute="centerX" secondItem="U1V-NV-CSY" secondAttribute="centerX" id="kY1-6x-P6Q"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awA-fg-qoh" userLabel="ViewSep3a">
+                                                        <rect key="frame" x="0.0" y="760" width="350" height="3"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="3" id="aq3-nf-Tcu"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBO-x4-ssy" userLabel="ViewConfigGrp">
+                                                        <rect key="frame" x="0.0" y="764" width="350" height="115"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="rzn-BY-tFh">
+                                                                <rect key="frame" x="67.5" y="20" width="215" height="76"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ah2-gA-p5G" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34.5" id="2Ys-aa-xPJ"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="yHS-ds-S4d"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="configStore">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectConfigStorePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iT1-sz-ITu"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAq-eZ-8F2" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="41.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="Yy1-FR-Mb7"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="zjF-HQ-Uwt"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="configGet">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectConfigGetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v0A-uz-4kG"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="115" id="5gR-w5-RUe"/>
+                                                            <constraint firstItem="rzn-BY-tFh" firstAttribute="top" secondItem="dBO-x4-ssy" secondAttribute="top" constant="20" id="IAJ-hi-RTI"/>
+                                                            <constraint firstItem="rzn-BY-tFh" firstAttribute="centerX" secondItem="dBO-x4-ssy" secondAttribute="centerX" id="dWn-xS-ges"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4U9-kK-r9d" userLabel="ViewSep4">
+                                                        <rect key="frame" x="0.0" y="880" width="350" height="3"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="3" id="bS7-4j-m8N"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EtS-Zp-1Px" userLabel="ViewDatastoreGrp">
+                                                        <rect key="frame" x="0.0" y="884" width="350" height="199"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ARf-SP-0BS">
+                                                                <rect key="frame" x="67.5" y="20" width="215" height="159"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lq8-mp-46s" userLabel="datastoreStore" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="592-jJ-uRv"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="xne-jE-bmL"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="datastoreStore">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectDatastoreStorePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gEW-9k-R6H"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2v-wF-ocG" userLabel="datastoreSearch" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="41.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="2m7-dP-QL4"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="fI2-De-Eka"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="datastoreSearch">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectDatastoreSearchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mDl-6m-tEo"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5J-Td-Ss5" userLabel="datastoreGet" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="83" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="J8f-68-PgZ"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="R0R-OD-rpv"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="datastoreGet">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectDatastoreGetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gvf-gJ-WLc"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvO-sQ-NR1" userLabel="datastoreDelete" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="124.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="Aii-qB-Xk5"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="LHS-aX-kbi"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="datastoreDelete">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectDatastoreDeletePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NaX-jm-0ox"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="ARf-SP-0BS" firstAttribute="top" secondItem="EtS-Zp-1Px" secondAttribute="top" constant="20" symbolic="YES" id="4HU-HT-WJK"/>
+                                                            <constraint firstItem="ARf-SP-0BS" firstAttribute="centerY" secondItem="EtS-Zp-1Px" secondAttribute="centerY" id="qr0-Uo-b0J"/>
+                                                            <constraint firstItem="ARf-SP-0BS" firstAttribute="centerX" secondItem="EtS-Zp-1Px" secondAttribute="centerX" id="xEa-po-f3v"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0x-ip-Vw5" userLabel="ViewSep5">
+                                                        <rect key="frame" x="0.0" y="1084" width="350" height="3"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="3" id="ISL-yd-qzE"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iaA-RM-IhK" userLabel="ViewOthersGrp">
+                                                        <rect key="frame" x="0.0" y="1088" width="350" height="199"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="cho-sC-bwQ">
+                                                                <rect key="frame" x="67.5" y="20" width="215" height="159"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRq-V7-iBl" userLabel="postEvent" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="AwS-H7-3Fz"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="zSx-SJ-y4C"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="postEvent">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectPostEventPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eB8-Xo-QTb"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtj-86-Lz4" userLabel="geofenceStatus" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="41.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="De2-vk-q42"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="N2z-gH-inD"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="geofenceStatus">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectGeofenceStatusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lvn-ZN-icC"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wx-Yn-5Ht" userLabel="wipedownNow" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="83" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="TFO-ZP-i20"/>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="xOb-Tz-Jpw"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="wipedownNow">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectWipedownNowPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h5-tF-RkY"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHB-Di-ce4" userLabel="wipedownStatus" customClass="RoundButton" customModule="kmsSdkDemo" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="124.5" width="215" height="34.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="6HL-9j-pey"/>
+                                                                            <constraint firstAttribute="height" constant="34.5" id="edh-mq-Z4y"/>
+                                                                        </constraints>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="kms.startServices">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="kms.startServices"/>
+                                                                            </attributedString>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="filled">
+                                                                            <attributedString key="attributedTitle">
+                                                                                <fragment content="wipedownStatus">
+                                                                                    <attributes>
+                                                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                    </attributes>
+                                                                                </fragment>
+                                                                            </attributedString>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="0.0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="selectWipedownStatusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mdv-Vp-d19"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="cho-sC-bwQ" firstAttribute="centerX" secondItem="iaA-RM-IhK" secondAttribute="centerX" id="4n0-wX-3bK"/>
+                                                            <constraint firstItem="cho-sC-bwQ" firstAttribute="top" secondItem="iaA-RM-IhK" secondAttribute="top" constant="20" symbolic="YES" id="MIX-aN-XRd"/>
+                                                            <constraint firstItem="cho-sC-bwQ" firstAttribute="centerY" secondItem="iaA-RM-IhK" secondAttribute="centerY" id="veH-37-kaf"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="XXf-bF-DQA" secondAttribute="trailing" id="32c-ou-5Aw"/>
+                                            <constraint firstAttribute="bottom" secondItem="XXf-bF-DQA" secondAttribute="bottom" id="37T-Ra-TzF"/>
+                                            <constraint firstItem="XXf-bF-DQA" firstAttribute="trailing" secondItem="gNz-Rb-Ria" secondAttribute="trailing" id="3y1-Rf-nNZ"/>
+                                            <constraint firstItem="XXf-bF-DQA" firstAttribute="top" secondItem="ZyO-Lr-KgZ" secondAttribute="top" id="Qsl-tN-C9a"/>
+                                            <constraint firstItem="XXf-bF-DQA" firstAttribute="leading" secondItem="gNz-Rb-Ria" secondAttribute="leading" id="lBB-xI-U5f"/>
+                                            <constraint firstItem="XXf-bF-DQA" firstAttribute="width" secondItem="ZyO-Lr-KgZ" secondAttribute="width" id="sdk-iO-snb"/>
+                                            <constraint firstItem="XXf-bF-DQA" firstAttribute="leading" secondItem="ZyO-Lr-KgZ" secondAttribute="leading" id="uE8-p7-Fh8"/>
+                                            <constraint firstItem="XXf-bF-DQA" firstAttribute="top" secondItem="gNz-Rb-Ria" secondAttribute="top" id="xut-lX-hlv"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="gNz-Rb-Ria"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="ZyO-Lr-KgZ"/>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qyM-6c-FKd" secondAttribute="bottom" id="BvM-Xt-mrQ"/>
+                                    <constraint firstAttribute="width" constant="350" id="Joj-re-hp4"/>
+                                    <constraint firstItem="qyM-6c-FKd" firstAttribute="centerX" secondItem="CP4-7f-7kx" secondAttribute="centerX" id="MdB-xs-vyX"/>
+                                    <constraint firstItem="qyM-6c-FKd" firstAttribute="top" secondItem="CP4-7f-7kx" secondAttribute="top" id="i8g-j6-Uyj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyD-7Y-ReZ" userLabel="ViewRightPanel">
+                                <rect key="frame" x="353" y="128" width="759" height="700"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InfoBin" translatesAutoresizingMaskIntoConstraints="NO" id="NpG-y1-lmV" userLabel="Bin1">
+                                        <rect key="frame" x="204.5" y="41" width="350" height="155"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="155" id="d88-fB-8Cw"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="mMg-he-WFV"/>
+                                            <constraint firstAttribute="width" constant="350" id="w4Y-fp-u8T"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kms.unlockButtonState" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a24-mD-e3K" userLabel="binBtnDesc">
+                                        <rect key="frame" x="212.5" y="44" width="155.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8a0-SJ-afX" userLabel="btnTextViewDesc">
+                                        <rect key="frame" x="214" y="69" width="331" height="122"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="331" id="PUZ-kw-I45"/>
+                                            <constraint firstAttribute="height" constant="122" id="Wu4-oB-yII"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="122" id="cU2-HH-Oib"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="331" id="xrp-zh-4Xz"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="textContainer.lineFragmentPadding">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="rect" keyPath="textContainerInset">
+                                                <rect key="value" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bin" translatesAutoresizingMaskIntoConstraints="NO" id="YdJ-Kk-6EW" userLabel="Bin2">
+                                        <rect key="frame" x="204.5" y="228" width="350" height="195"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="1a7-Uu-8gS"/>
+                                            <constraint firstAttribute="height" constant="195" id="o2b-Tf-y12"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yj-Y7-9jO">
+                                        <rect key="frame" x="212.5" y="231" width="35.5" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sCl-qW-5gs" userLabel="callTextViewDesc">
+                                        <rect key="frame" x="212" y="271" width="331" height="122"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="331" id="Hap-YD-Bq0"/>
+                                            <constraint firstAttribute="height" constant="122" id="RQ5-Fy-9Cx"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="textContainer.lineFragmentPadding">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="rect" keyPath="textContainerInset">
+                                                <rect key="value" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ei9-rn-aJV" userLabel="PLACEBTN">
+                                        <rect key="frame" x="474.5" y="393" width="80" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="9ak-ru-BK8"/>
+                                            <constraint firstAttribute="width" constant="80" id="GGh-1s-wnZ"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="BinTab">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="PLACE">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="placeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LXV-4b-7xj"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bin" translatesAutoresizingMaskIntoConstraints="NO" id="hef-hK-Had" userLabel="Bin3">
+                                        <rect key="frame" x="204.5" y="456" width="350" height="195"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="ZcL-kv-ZyN"/>
+                                            <constraint firstAttribute="height" constant="195" id="nEJ-nK-7x8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESPONSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lO-OJ-SYZ">
+                                        <rect key="frame" x="212.5" y="459" width="74" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zLc-vZ-AjY" userLabel="CLEARBTN">
+                                        <rect key="frame" x="474.5" y="621" width="80" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="6iO-ax-SLi"/>
+                                            <constraint firstAttribute="width" constant="80" id="93O-MR-lGQ"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="BinTab">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="CLEAR">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="clearButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PXu-8k-obC"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sp5-a3-2N1" userLabel="respTextViewDesc">
+                                        <rect key="frame" x="214" y="491" width="331" height="128"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="331" id="A7W-cJ-Cg8"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="textContainer.lineFragmentPadding">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="rect" keyPath="textContainerInset">
+                                                <rect key="value" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="a24-mD-e3K" secondAttribute="trailing" constant="20" symbolic="YES" id="12O-ca-UvA"/>
+                                    <constraint firstItem="hef-hK-Had" firstAttribute="top" secondItem="YdJ-Kk-6EW" secondAttribute="bottom" constant="33" id="15B-Ea-tvG"/>
+                                    <constraint firstItem="zLc-vZ-AjY" firstAttribute="bottom" secondItem="hef-hK-Had" secondAttribute="bottom" id="19T-Ez-BQI"/>
+                                    <constraint firstItem="sCl-qW-5gs" firstAttribute="centerX" secondItem="wyD-7Y-ReZ" secondAttribute="centerX" constant="-2" id="4zt-Nd-aqc"/>
+                                    <constraint firstItem="ei9-rn-aJV" firstAttribute="trailing" secondItem="YdJ-Kk-6EW" secondAttribute="trailing" id="8VJ-9T-Z46"/>
+                                    <constraint firstItem="8lO-OJ-SYZ" firstAttribute="top" secondItem="hef-hK-Had" secondAttribute="top" constant="3" id="EJ4-Qd-RDT"/>
+                                    <constraint firstItem="YdJ-Kk-6EW" firstAttribute="centerX" secondItem="wyD-7Y-ReZ" secondAttribute="centerX" id="HpE-XB-mEa"/>
+                                    <constraint firstItem="9Yj-Y7-9jO" firstAttribute="leading" secondItem="YdJ-Kk-6EW" secondAttribute="leading" constant="8" id="KHe-Ik-Lru"/>
+                                    <constraint firstItem="hef-hK-Had" firstAttribute="centerX" secondItem="wyD-7Y-ReZ" secondAttribute="centerX" id="KvT-nS-HOT"/>
+                                    <constraint firstItem="8lO-OJ-SYZ" firstAttribute="leading" secondItem="hef-hK-Had" secondAttribute="leading" constant="8" id="O6b-YJ-Yaa"/>
+                                    <constraint firstItem="zLc-vZ-AjY" firstAttribute="top" secondItem="Sp5-a3-2N1" secondAttribute="bottom" constant="2" id="TXX-49-UY5"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9Yj-Y7-9jO" secondAttribute="trailing" constant="20" symbolic="YES" id="ZFX-wx-qhO"/>
+                                    <constraint firstItem="a24-mD-e3K" firstAttribute="leading" secondItem="NpG-y1-lmV" secondAttribute="leading" constant="8" id="Zsb-Mx-hLI"/>
+                                    <constraint firstItem="a24-mD-e3K" firstAttribute="top" secondItem="NpG-y1-lmV" secondAttribute="top" constant="3" id="aiS-D5-xsA"/>
+                                    <constraint firstItem="8a0-SJ-afX" firstAttribute="top" secondItem="a24-mD-e3K" secondAttribute="bottom" constant="8" symbolic="YES" id="awj-gZ-SqE"/>
+                                    <constraint firstItem="NpG-y1-lmV" firstAttribute="top" secondItem="wyD-7Y-ReZ" secondAttribute="top" constant="41" id="bCd-2M-qga"/>
+                                    <constraint firstItem="zLc-vZ-AjY" firstAttribute="trailing" secondItem="hef-hK-Had" secondAttribute="trailing" id="deA-bN-qRU"/>
+                                    <constraint firstItem="Sp5-a3-2N1" firstAttribute="top" secondItem="8lO-OJ-SYZ" secondAttribute="bottom" constant="15" id="dz6-FM-V1F"/>
+                                    <constraint firstItem="NpG-y1-lmV" firstAttribute="centerX" secondItem="wyD-7Y-ReZ" secondAttribute="centerX" id="hIc-UF-7tr"/>
+                                    <constraint firstItem="Sp5-a3-2N1" firstAttribute="centerX" secondItem="wyD-7Y-ReZ" secondAttribute="centerX" id="lKe-R1-eM2"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8lO-OJ-SYZ" secondAttribute="trailing" constant="20" symbolic="YES" id="nmq-4H-h6I"/>
+                                    <constraint firstItem="9Yj-Y7-9jO" firstAttribute="top" secondItem="YdJ-Kk-6EW" secondAttribute="top" constant="3" id="oyr-YK-QH7"/>
+                                    <constraint firstItem="sCl-qW-5gs" firstAttribute="top" secondItem="9Yj-Y7-9jO" secondAttribute="bottom" constant="8" id="q3y-wn-5TU"/>
+                                    <constraint firstItem="8a0-SJ-afX" firstAttribute="centerX" secondItem="wyD-7Y-ReZ" secondAttribute="centerX" id="r2N-D7-Qgj"/>
+                                    <constraint firstItem="ei9-rn-aJV" firstAttribute="bottom" secondItem="YdJ-Kk-6EW" secondAttribute="bottom" id="uqb-O9-c0c"/>
+                                    <constraint firstItem="YdJ-Kk-6EW" firstAttribute="top" secondItem="NpG-y1-lmV" secondAttribute="bottom" constant="32" id="vF7-4g-1ui"/>
+                                    <constraint firstItem="hef-hK-Had" firstAttribute="top" secondItem="sCl-qW-5gs" secondAttribute="bottom" constant="63" id="y6H-sF-6WA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4O3-pW-Ywx" userLabel="ViewVerticalSeparator">
+                                <rect key="frame" x="350" y="128" width="3" height="706"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="3" id="hed-YM-b03"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="0l4-yf-fcT" firstAttribute="bottom" secondItem="wr2-HR-Rjg" secondAttribute="bottom" id="01I-15-e6l"/>
+                            <constraint firstItem="4O3-pW-Ywx" firstAttribute="top" secondItem="CP4-7f-7kx" secondAttribute="top" id="3l5-iu-Af9"/>
+                            <constraint firstItem="CP4-7f-7kx" firstAttribute="top" secondItem="wr2-HR-Rjg" secondAttribute="bottom" id="47M-0C-d5k"/>
+                            <constraint firstItem="4O3-pW-Ywx" firstAttribute="bottom" secondItem="CP4-7f-7kx" secondAttribute="bottom" id="4qw-gY-oQO"/>
+                            <constraint firstItem="wr2-HR-Rjg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6Qr-vT-2wn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wr2-HR-Rjg" secondAttribute="trailing" id="AQE-A9-GbY"/>
+                            <constraint firstItem="wyD-7Y-ReZ" firstAttribute="top" secondItem="0l4-yf-fcT" secondAttribute="bottom" id="DEq-oN-mBL"/>
+                            <constraint firstItem="wr2-HR-Rjg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FB5-QI-wcX"/>
+                            <constraint firstItem="4O3-pW-Ywx" firstAttribute="leading" secondItem="CP4-7f-7kx" secondAttribute="trailing" id="GaP-Cb-gbm"/>
+                            <constraint firstItem="0l4-yf-fcT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IlM-q0-y0Z"/>
+                            <constraint firstItem="wr2-HR-Rjg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JC0-tl-Vu4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wyD-7Y-ReZ" secondAttribute="trailing" id="LI2-9y-F0D"/>
+                            <constraint firstItem="CP4-7f-7kx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LTh-aw-gcD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wyD-7Y-ReZ" secondAttribute="bottom" constant="6" id="LdX-Ig-gIq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="wr2-HR-Rjg" secondAttribute="top" constant="20" id="N5F-38-eJy"/>
+                            <constraint firstItem="0l4-yf-fcT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OZc-oF-j44"/>
+                            <constraint firstItem="wyD-7Y-ReZ" firstAttribute="leading" secondItem="4O3-pW-Ywx" secondAttribute="trailing" id="Tn1-eR-evL"/>
+                            <constraint firstItem="wyD-7Y-ReZ" firstAttribute="leading" secondItem="4O3-pW-Ywx" secondAttribute="trailing" id="XIV-pe-zRe"/>
+                            <constraint firstItem="wyD-7Y-ReZ" firstAttribute="leading" secondItem="4O3-pW-Ywx" secondAttribute="trailing" id="atB-qy-Z1a"/>
+                            <constraint firstItem="CP4-7f-7kx" firstAttribute="top" secondItem="0l4-yf-fcT" secondAttribute="bottom" id="cbJ-ZM-aFx"/>
+                            <constraint firstItem="wyD-7Y-ReZ" firstAttribute="top" secondItem="wr2-HR-Rjg" secondAttribute="bottom" id="e8Q-aB-wLe"/>
+                            <constraint firstAttribute="trailing" secondItem="0l4-yf-fcT" secondAttribute="trailing" id="gHc-tT-RTh"/>
+                            <constraint firstItem="0l4-yf-fcT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k4e-ak-XoF"/>
+                            <constraint firstItem="CP4-7f-7kx" firstAttribute="leading" secondItem="0l4-yf-fcT" secondAttribute="leading" id="wUW-m2-pMj"/>
+                            <constraint firstItem="CP4-7f-7kx" firstAttribute="trailing" secondItem="4O3-pW-Ywx" secondAttribute="leading" id="zR0-qL-uhQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="binBtnDesc" destination="a24-mD-e3K" id="5cW-uQ-ch4"/>
+                        <outlet property="btnTextViewDesc" destination="8a0-SJ-afX" id="dIS-1L-glC"/>
+                        <outlet property="btn_clearUser" destination="DLt-O5-3Kz" id="WIK-05-59m"/>
+                        <outlet property="btn_configGet" destination="qAq-eZ-8F2" id="nWL-RC-nsK"/>
+                        <outlet property="btn_configStore" destination="ah2-gA-p5G" id="nde-wZ-V0D"/>
+                        <outlet property="btn_datastoreDelete" destination="fvO-sQ-NR1" id="Le2-Gb-bol"/>
+                        <outlet property="btn_datastoreGet" destination="G5J-Td-Ss5" id="YbN-af-X0h"/>
+                        <outlet property="btn_datastoreSearch" destination="u2v-wF-ocG" id="sEU-Ah-17H"/>
+                        <outlet property="btn_datastoreStore" destination="lq8-mp-46s" id="q1s-js-Mf0"/>
+                        <outlet property="btn_dockInfo" destination="gad-sf-aCc" id="fo0-Fh-PcK"/>
+                        <outlet property="btn_dockPairingInfo" destination="pwz-LH-Fh4" id="1vB-pk-9eX"/>
+                        <outlet property="btn_dockPairingStatus" destination="nc4-SN-jlR" id="yVA-ZW-SUu"/>
+                        <outlet property="btn_dockStatus" destination="e3s-Dr-eiz" id="qD1-eS-UzL"/>
+                        <outlet property="btn_dockUnlock" destination="NHh-yL-u67" id="yvC-uK-Rhi"/>
+                        <outlet property="btn_geofenceStatus" destination="Xtj-86-Lz4" id="fKt-AI-bcj"/>
+                        <outlet property="btn_getMetric" destination="bFA-Sk-Ds2" id="ssn-LF-3p5"/>
+                        <outlet property="btn_hideControls" destination="vp5-H3-FJ1" id="vhF-RM-bfg"/>
+                        <outlet property="btn_openPortal" destination="RMk-fb-85G" id="ckp-zV-8qb"/>
+                        <outlet property="btn_postEvent" destination="xRq-V7-iBl" id="xM8-on-n87"/>
+                        <outlet property="btn_postMetric" destination="LgA-sZ-1cS" id="aOE-I0-iyE"/>
+                        <outlet property="btn_showControls" destination="ww0-Tw-ZQN" id="ZXo-FE-H1k"/>
+                        <outlet property="btn_startServices" destination="HWq-Kr-9BG" id="Kgq-rU-9E4"/>
+                        <outlet property="btn_unlockButtonState" destination="UbJ-NE-bER" id="ADf-uU-pz2"/>
+                        <outlet property="btn_userAuth" destination="ald-oM-mCA" id="Urg-HB-7Ja"/>
+                        <outlet property="btn_whoAmI" destination="cub-a2-T1L" id="dMc-iw-FJV"/>
+                        <outlet property="btn_wipedownNow" destination="8wx-Yn-5Ht" id="kJ8-r3-HLc"/>
+                        <outlet property="btn_wipedownStatus" destination="bHB-Di-ce4" id="I8d-vG-sBY"/>
+                        <outlet property="callTextViewDesc" destination="sCl-qW-5gs" id="loh-2a-8js"/>
+                        <outlet property="respTextViewDesc" destination="Sp5-a3-2N1" id="gE5-QK-V1J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24.820143884892087" y="-28.057553956834536"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="8wx-Yn-5Ht">
+            <size key="intrinsicContentSize" width="101.5" height="28"/>
+        </designable>
+        <designable name="DLt-O5-3Kz">
+            <size key="intrinsicContentSize" width="75.5" height="28"/>
+        </designable>
+        <designable name="G5J-Td-Ss5">
+            <size key="intrinsicContentSize" width="93.5" height="28"/>
+        </designable>
+        <designable name="HWq-Kr-9BG">
+            <size key="intrinsicContentSize" width="93.5" height="28"/>
+        </designable>
+        <designable name="LgA-sZ-1cS">
+            <size key="intrinsicContentSize" width="79.5" height="28"/>
+        </designable>
+        <designable name="NHh-yL-u67">
+            <size key="intrinsicContentSize" width="86.5" height="28"/>
+        </designable>
+        <designable name="RMk-fb-85G">
+            <size key="intrinsicContentSize" width="82.5" height="28"/>
+        </designable>
+        <designable name="UbJ-NE-bER">
+            <size key="intrinsicContentSize" width="121.5" height="28"/>
+        </designable>
+        <designable name="Xtj-86-Lz4">
+            <size key="intrinsicContentSize" width="107.5" height="28"/>
+        </designable>
+        <designable name="ah2-gA-p5G">
+            <size key="intrinsicContentSize" width="85" height="28"/>
+        </designable>
+        <designable name="ald-oM-mCA">
+            <size key="intrinsicContentSize" width="72.5" height="28"/>
+        </designable>
+        <designable name="bFA-Sk-Ds2">
+            <size key="intrinsicContentSize" width="73.5" height="28"/>
+        </designable>
+        <designable name="bHB-Di-ce4">
+            <size key="intrinsicContentSize" width="111.5" height="28"/>
+        </designable>
+        <designable name="cub-a2-T1L">
+            <size key="intrinsicContentSize" width="67.5" height="28"/>
+        </designable>
+        <designable name="e3s-Dr-eiz">
+            <size key="intrinsicContentSize" width="83.5" height="28"/>
+        </designable>
+        <designable name="fvO-sQ-NR1">
+            <size key="intrinsicContentSize" width="109" height="28"/>
+        </designable>
+        <designable name="gad-sf-aCc">
+            <size key="intrinsicContentSize" width="69.5" height="28"/>
+        </designable>
+        <designable name="lq8-mp-46s">
+            <size key="intrinsicContentSize" width="103" height="28"/>
+        </designable>
+        <designable name="nc4-SN-jlR">
+            <size key="intrinsicContentSize" width="121" height="28"/>
+        </designable>
+        <designable name="pwz-LH-Fh4">
+            <size key="intrinsicContentSize" width="107" height="28"/>
+        </designable>
+        <designable name="qAq-eZ-8F2">
+            <size key="intrinsicContentSize" width="75.5" height="28"/>
+        </designable>
+        <designable name="u2v-wF-ocG">
+            <size key="intrinsicContentSize" width="112.5" height="28"/>
+        </designable>
+        <designable name="vp5-H3-FJ1">
+            <size key="intrinsicContentSize" width="91.5" height="28"/>
+        </designable>
+        <designable name="ww0-Tw-ZQN">
+            <size key="intrinsicContentSize" width="97" height="28"/>
+        </designable>
+        <designable name="xRq-V7-iBl">
+            <size key="intrinsicContentSize" width="77.5" height="28"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Bin" width="700" height="390"/>
+        <image name="BinTab" width="160" height="60"/>
+        <image name="InfoBin" width="700" height="310"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

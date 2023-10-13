@@ -1,0 +1,5129 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LilitabSound",
+        "printedName": "LilitabSound",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cueSoundFrom",
+            "printedName": "cueSoundFrom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)cueSoundFrom:",
+            "mangledName": "$s10LilitabSDK0A5SoundC03cueC4FromySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteSounds",
+            "printedName": "deleteSounds(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)deleteSounds:",
+            "mangledName": "$s10LilitabSDK0A5SoundC12deleteSoundsySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playSoundFrom",
+            "printedName": "playSoundFrom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)playSoundFrom:",
+            "mangledName": "$s10LilitabSDK0A5SoundC04playC4FromySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "audioPlayerDidFinishPlaying",
+            "printedName": "audioPlayerDidFinishPlaying(_:successfully:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioPlayer",
+                "printedName": "AVFAudio.AVAudioPlayer",
+                "usr": "c:objc(cs)AVAudioPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)audioPlayerDidFinishPlaying:successfully:",
+            "mangledName": "$s10LilitabSDK0A5SoundC27audioPlayerDidFinishPlaying_12successfullyySo07AVAudioE0C_SbtF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "audioPlayerDidFinishPlaying:successfully:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LilitabSound",
+                "printedName": "LilitabSDK.LilitabSound",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)init",
+            "mangledName": "$s10LilitabSDK0A5SoundCACycfc",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound",
+        "mangledName": "$s10LilitabSDK0A5SoundC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KMSWipedownPINViewController",
+        "printedName": "KMSWipedownPINViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)viewDidLoad",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC11viewDidLoadyyF",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)viewWillAppear:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC14viewWillAppearyySbF",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)viewDidDisappear:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController",
+        "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KMSDockStatusMonitor",
+        "printedName": "KMSDockStatusMonitor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showBleConnectViewController",
+            "printedName": "showBleConnectViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showBleConnectViewController",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC28showBleConnectViewControlleryyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showView6ChangePairingViewController",
+            "printedName": "showView6ChangePairingViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showView6ChangePairingViewController",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC36showView6ChangePairingViewControlleryyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showView4ConnectNotFoundViewController",
+            "printedName": "showView4ConnectNotFoundViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showView4ConnectNotFoundViewController",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC38showView4ConnectNotFoundViewControlleryyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpairBLEDock",
+            "printedName": "unpairBLEDock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)unpairBLEDock",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC13unpairBLEDockyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initForSDK",
+            "printedName": "initForSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)initForSDK",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC07initForB0yyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleDockStatusNotification",
+            "printedName": "handleDockStatusNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)handleDockStatusNotification",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC010handleDockD12NotificationyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showPairingStatusDisconnectConfirm",
+            "printedName": "showPairingStatusDisconnectConfirm(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Notification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Notification",
+                    "printedName": "Foundation.Notification",
+                    "usr": "s:10Foundation12NotificationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showPairingStatusDisconnectConfirm:",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC011showPairingD17DisconnectConfirmyy10Foundation12NotificationVSgF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showBLEDockPairingStatus",
+            "printedName": "showBLEDockPairingStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Notification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Notification",
+                    "printedName": "Foundation.Notification",
+                    "usr": "s:10Foundation12NotificationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showBLEDockPairingStatus:",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC018showBLEDockPairingD0yy10Foundation12NotificationVSgF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor",
+        "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LilitabSpeech",
+        "printedName": "LilitabSpeech",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error202String",
+            "printedName": "error202String",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error202String",
+            "mangledName": "$s10LilitabSDK0A6SpeechC14error202StringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error202String",
+                "mangledName": "$s10LilitabSDK0A6SpeechC14error202StringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error202IgnoredString",
+            "printedName": "error202IgnoredString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error202IgnoredString",
+            "mangledName": "$s10LilitabSDK0A6SpeechC21error202IgnoredStringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error202IgnoredString",
+                "mangledName": "$s10LilitabSDK0A6SpeechC21error202IgnoredStringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error400UnexpectedString",
+            "printedName": "error400UnexpectedString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error400UnexpectedString",
+            "mangledName": "$s10LilitabSDK0A6SpeechC24error400UnexpectedStringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error400UnexpectedString",
+                "mangledName": "$s10LilitabSDK0A6SpeechC24error400UnexpectedStringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error400NoDataString",
+            "printedName": "error400NoDataString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error400NoDataString",
+            "mangledName": "$s10LilitabSDK0A6SpeechC20error400NoDataStringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error400NoDataString",
+                "mangledName": "$s10LilitabSDK0A6SpeechC20error400NoDataStringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "speakFromDictionary",
+            "printedName": "speakFromDictionary(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(im)speakFromDictionary:",
+            "mangledName": "$s10LilitabSDK0A6SpeechC19speakFromDictionaryySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(im)speechSynthesizer:didFinishSpeechUtterance:",
+            "mangledName": "$s10LilitabSDK0A6SpeechC17speechSynthesizer_9didFinishySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "speechSynthesizer:didFinishSpeechUtterance:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LilitabSpeech",
+                "printedName": "LilitabSDK.LilitabSpeech",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(im)init",
+            "mangledName": "$s10LilitabSDK0A6SpeechCACycfc",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech",
+        "mangledName": "$s10LilitabSDK0A6SpeechC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KMSServerViewMonitor",
+        "printedName": "KMSServerViewMonitor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initForSDK",
+            "printedName": "initForSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSServerViewMonitor(im)initForSDK",
+            "mangledName": "$s10LilitabSDK20KMSServerViewMonitorC07initForB0yyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testAppBecameActive",
+            "printedName": "testAppBecameActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Notification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Notification",
+                    "printedName": "Foundation.Notification",
+                    "usr": "s:10Foundation12NotificationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSServerViewMonitor(im)testAppBecameActive:",
+            "mangledName": "$s10LilitabSDK20KMSServerViewMonitorC19testAppBecameActiveyy10Foundation12NotificationVSgF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)KMSServerViewMonitor",
+        "mangledName": "$s10LilitabSDK20KMSServerViewMonitorC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WipedownMonitor",
+        "printedName": "WipedownMonitor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WipedownMonitor",
+                "printedName": "LilitabSDK.WipedownMonitor",
+                "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(cm)sharedInstance",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC14sharedInstanceACyFZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "snoozeCountVal",
+            "printedName": "snoozeCountVal()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)snoozeCountVal",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC14snoozeCountValSiyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNextWipedown",
+            "printedName": "getNextWipedown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getNextWipedown",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC07getNextC0SSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastAlert",
+            "printedName": "getLastAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getLastAlert",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC12getLastAlertSSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastWipedown",
+            "printedName": "getLastWipedown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getLastWipedown",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC07getLastC0SSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWipedownIntervalMins",
+            "printedName": "getWipedownIntervalMins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getWipedownIntervalMins",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC03getC12IntervalMinsSSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSnoozeDurationMins",
+            "printedName": "getSnoozeDurationMins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getSnoozeDurationMins",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC21getSnoozeDurationMinsSSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWipedownPINViewControllerForDockUnlock",
+            "printedName": "showWipedownPINViewControllerForDockUnlock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)showWipedownPINViewControllerForDockUnlock",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC04showC30PINViewControllerForDockUnlockyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWipedownPINViewControllerForUserAuth",
+            "printedName": "showWipedownPINViewControllerForUserAuth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)showWipedownPINViewControllerForUserAuth",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC04showC28PINViewControllerForUserAuthyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)setup",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC5setupyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor",
+        "mangledName": "$s10LilitabSDK15WipedownMonitorC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/String_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 80,
+      "value": "\"<html><body bgcolor=\"#FFFFFF\"><\/body><BR><BR>Wipe screen with cleaner<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1045,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 103,
+      "value": "\"<html><body bgcolor=\"#FFFFFF\"><\/body><BR><BR>Unable to load URL:<BR>\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 2,
+      "value": "\"<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2398,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2440,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2496,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2552,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2631,
+      "length": 3,
+      "value": "404"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2778,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2840,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2896,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2972,
+      "length": 37,
+      "value": "\"wipedown-LastDownloadedInstructions\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3395,
+      "length": 25,
+      "value": "\"document.body.innerHTML\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3726,
+      "length": 37,
+      "value": "\"wipedown-LastDownloadedInstructions\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4004,
+      "length": 37,
+      "value": "\"wipedown-LastDownloadedInstructions\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5162,
+      "length": 39,
+      "value": "\"KMSWipedownInstructionsViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 8,
+      "value": "\"sounds\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 5,
+      "value": "\"web\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 28,
+      "value": "\"400: sound data bad format\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 20,
+      "value": "\"400: no sound data\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 7,
+      "value": "\"sound\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 20,
+      "value": "\"400: no sound data\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 28,
+      "value": "\"400: sound data bad format\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1343,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 36,
+      "value": "\"400: \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
+      "length": 9,
+      "value": "\"200: OK\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 36,
+      "value": "\"400: \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1922,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2502,
+      "length": 7,
+      "value": "\"sound\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2538,
+      "length": 25,
+      "value": "\"400: no sound specified\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2646,
+      "length": 5,
+      "value": "\"wav\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2719,
+      "length": 5,
+      "value": "\"mp3\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2809,
+      "length": 5,
+      "value": "\"wav\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 5,
+      "value": "\"mp3\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
+      "length": 5,
+      "value": "\"wav\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3083,
+      "length": 5,
+      "value": "\"mp3\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3116,
+      "length": 22,
+      "value": "\"400: sound not found\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3172,
+      "length": 23,
+      "value": "\"SoundURL: \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3576,
+      "length": 7,
+      "value": "\"style\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
+      "length": 8,
+      "value": "\"polite\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 3625,
+      "length": 11,
+      "value": "\"assertive\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 4181,
+      "length": 9,
+      "value": "\"200: OK\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 4236,
+      "length": 36,
+      "value": "\"401: \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSound\/LilitabSound.swift",
+      "kind": "StringLiteral",
+      "offset": 4271,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1124,
+      "length": 12,
+      "value": "\"thisString\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 14,
+      "value": "\"WipedownIcon\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownButton.swift",
+      "kind": "StringLiteral",
+      "offset": 2083,
+      "length": 37,
+      "value": "\"KMSWipedown_showPinPadForDockUnlock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownButton.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 31,
+      "value": "\"KMSWipedown_testWipeDownModal\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownButton.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 17,
+      "value": "\"LilitabSDK.KMSWipedownButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 21,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 11,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 18,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 18,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 19,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 8,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 17,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 21,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 11,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 18,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 18,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 19,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 8,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 17,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 21,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 11,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 18,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 18,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 19,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 8,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 17,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1909,
+      "length": 40,
+      "value": "\"Scan Badge or Enter PIN to Unlock Dock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1986,
+      "length": 46,
+      "value": "\"Scane Badge or Enter PIN to Confirm Cleaning\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2131,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2200,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2278,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2798,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2957,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3134,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3167,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "Dictionary",
+      "offset": 3361,
+      "length": 14,
+      "value": "[(\"cancel\", \"*\")]"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4564,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4655,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4658,
+      "length": 18,
+      "value": "\"BAD KEY ID (uid)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4716,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4723,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4772,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5248,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5611,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5690,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5702,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5705,
+      "length": 18,
+      "value": "\"BAD KEY ID (pin)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5760,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5767,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5813,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6677,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6756,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6768,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6771,
+      "length": 21,
+      "value": "\"BAD KEY ID (newpin)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6832,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6839,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6888,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7757,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7836,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7848,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7851,
+      "length": 21,
+      "value": "\"BAD KEY ID (newpin)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7919,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7926,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7982,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8302,
+      "length": 34,
+      "value": "\"DBVerifyUserPinCacheNotification\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8388,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8416,
+      "length": 5,
+      "value": "\"pin\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8642,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8719,
+      "length": 12,
+      "value": "\"needNewPin\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8804,
+      "length": 4,
+      "value": "\"ok\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8861,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8915,
+      "length": 13,
+      "value": "\"PIN Updated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9009,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9108,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9184,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9254,
+      "length": 64,
+      "value": "\"JSL\/resultOfTestEnteredUserIdAndPIN(resultDict): \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9317,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10289,
+      "length": 79,
+      "value": "\"debugJSL, confirmedUserHandle=\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10406,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10447,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10452,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10480,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10484,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10516,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10668,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10775,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11155,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11279,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11353,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11485,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11956,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "Dictionary",
+      "offset": 12054,
+      "length": 15,
+      "value": "[(\"timeout\", \"*\")]"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12428,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12663,
+      "length": 35,
+      "value": "\"DBVerifyUserPinResultNotification\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13535,
+      "length": 30,
+      "value": "\"KMSWipedownPINViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13668,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13850,
+      "length": 30,
+      "value": "\"KMSWipedownPINViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13991,
+      "length": 36,
+      "value": "\"debux cleaningMode=\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14026,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14583,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14709,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 15816,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16066,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16112,
+      "length": 10,
+      "value": "\"User ID \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16181,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16392,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 16713,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16727,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16988,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 17328,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17342,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17631,
+      "length": 34,
+      "value": "\"DBVerifyUserPinCacheNotification\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17729,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17819,
+      "length": 10,
+      "value": "\"resetpin\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17927,
+      "length": 19,
+      "value": "\"PINs do not match\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 18030,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18044,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18309,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 18394,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18679,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18841,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 18927,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18941,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 19282,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19514,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19555,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19972,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20019,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20066,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20160,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20207,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20400,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20667,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20714,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20758,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20832,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20896,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20960,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21077,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21145,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21213,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 21254,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21303,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21322,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 21363,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21431,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 21472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 21582,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21631,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21774,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21907,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22030,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22163,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 19,
+      "value": "\"wipedownShowAlert\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 18,
+      "value": "\"wipedownInterval\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 557,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 587,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 594,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 20,
+      "value": "\"wipedownAudioAlert\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 15,
+      "value": "\"WipeBeeps.wav\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 970,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 16,
+      "value": "\"wipedownGetPIN\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 13,
+      "value": "\"wipedownURL\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 24,
+      "value": "\"wipedownSnoozeDuration\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 1426,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 1456,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "FloatLiteral",
+      "offset": 1463,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 29,
+      "value": "\"wipedownSnoozeNumberOfTimes\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 1780,
+      "length": 23,
+      "value": "\"wipedownSnoozeAllowed\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1927,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 25,
+      "value": "\"KMSWipedown_ShowUpdated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 27,
+      "value": "\"KMSWipedown_SnoozeUpdated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 2675,
+      "length": 24,
+      "value": "\"KMSWipedown_urlUpdated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 473,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 488,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 639,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 654,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 803,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 818,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 971,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/Extensions\/UIView_Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 986,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 18,
+      "value": "\"show BLE connect\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 32,
+      "value": "\"show pairStatusViewController6\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
+      "length": 45,
+      "value": "\"show showView4ConnectNotFoundViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 23,
+      "value": "\"in func unpairBLEDock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4223,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4327,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4431,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4535,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4670,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4786,
+      "length": 43,
+      "value": "\"showPairingStatusDisconnectConfirm(view6)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 5312,
+      "length": 61,
+      "value": "\"showBLEDockPairingStatus KMSSERVERVIEW MONITOR [showMainVC]\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 5497,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5511,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 5549,
+      "length": 44,
+      "value": "\"pairingStatusTime check, timeInterval 2.0s\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6544,
+      "length": 35,
+      "value": "\"dock is bleOn? =\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6578,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6596,
+      "length": 37,
+      "value": "\"dock is paired? =\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6632,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6650,
+      "length": 43,
+      "value": "\"dock is connected? =\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6692,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6833,
+      "length": 27,
+      "value": "\"dock sdcDock = \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6859,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6876,
+      "length": 53,
+      "value": "\"dock sdcDock.hasHeartbeat = \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6928,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7630,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8164,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9217,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSDockStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9244,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanView.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 14,
+      "value": "\"LilitabSDK.QRCodeScanView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 15,
+      "value": "\"202: accepted\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 40,
+      "value": "\"202: accepted; some attributes ignored\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 29,
+      "value": "\"400: unexpected data format\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 14,
+      "value": "\"400: no data\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 11,
+      "value": "\"assertive\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1620,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSServerViewMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 36,
+      "value": "\"KMSServerViewMonitor internal init\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSServerViewMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 33,
+      "value": "\"KMSServerViewMonitor init (sdk)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSServerViewMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2933,
+      "length": 102,
+      "value": "\"in KMSServerViewMonitor (testAppBecameActive)\/ app has become active! call showControls\/fromSettings\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSServerViewMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3246,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSServerViewMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 57,
+      "value": "\"KMSSERVERVIEW MONITOR - showWipedownUpdatedNotification\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWebView\/KMSServerViewMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3764,
+      "length": 29,
+      "value": "\"WipeDownMonitor\/showMainVCX\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 957,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 18,
+      "value": "\"wipedownInterval\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 6,
+      "value": "\"%.0f\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 24,
+      "value": "\"wipedownSnoozeDuration\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 6,
+      "value": "\"%.0f\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 15,
+      "value": "\"wd\/showMainVC\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 2002,
+      "length": 31,
+      "value": "\"ALREADY HAVE A WipedownMainVC\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2954,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3325,
+      "length": 27,
+      "value": "\"pinViewResult = \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3351,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3549,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3584,
+      "length": 29,
+      "value": "\"user cancelled from pin pad\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 3900,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4016,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4073,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4110,
+      "length": 33,
+      "value": "\"result\/userHandle=\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4142,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4203,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4264,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 57,
+      "value": "\"pinAuthReturn:JSLresultUNDOCK, userHandle=\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4430,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4507,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4585,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 4666,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 5108,
+      "length": 12,
+      "value": "\"KMSWebView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 5302,
+      "length": 9,
+      "value": "\"timeout\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 5338,
+      "length": 41,
+      "value": "\"wipeDownMonitor(dockUnlock) \/ timed out\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6014,
+      "length": 36,
+      "value": "\"showPINViewControllerForDockUnlock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6238,
+      "length": 65,
+      "value": "\"JSL456 unlock(2) >>> showWipedownPINViewControllerForDockUnlock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6742,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 6781,
+      "length": 29,
+      "value": "\"user cancelled from pin pad\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 7121,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7265,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7326,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7367,
+      "length": 51,
+      "value": "\"pinAuthReturn:JSLresult, userHandle=\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7486,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7563,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7641,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7722,
+      "length": 10,
+      "value": "\"userName\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7861,
+      "length": 9,
+      "value": "\"timeout\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 7901,
+      "length": 41,
+      "value": "\"wipeDownMonitor(dockUnlock) \/ timed out\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 8672,
+      "length": 33,
+      "value": "\"showPINViewControllerForUserAth\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8927,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 9161,
+      "length": 28,
+      "value": "\"LilitabAPIClient_PostEvent\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 9327,
+      "length": 32,
+      "value": "\"snooze called when not allowed\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9406,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 9581,
+      "length": 12,
+      "value": "\"snoozetime\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 9625,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 9696,
+      "length": 28,
+      "value": "\"LilitabAPIClient_PostEvent\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10608,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 10932,
+      "length": 23,
+      "value": "\"ddMMMyy, HH:mm:ss (z)\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 33,
+      "value": "\"com.apple.configuration.managed\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 11,
+      "value": "\"Jamf-Icon\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 12,
+      "value": "\"LilitabSDK.JamfIconView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 12,
+      "value": "\"LilitabSDK.JamfIconView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 12,
+      "value": "\"LilitabSDK.JamfIconView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 26,
+      "value": "\"QRCodeScanViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 720,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 755,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1446,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4431,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8689,
+      "length": 26,
+      "value": "\"QRCodeScanViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8771,
+      "length": 15,
+      "value": "\"qrscan deinit\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 8,
+      "value": "\"phrase\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 817,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 7,
+      "value": "\"voice\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1157,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "FloatLiteral",
+      "offset": 1520,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "FloatLiteral",
+      "offset": 1543,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 1929,
+      "length": 17,
+      "value": "\"pitchMultiplier\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1996,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "FloatLiteral",
+      "offset": 2090,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "FloatLiteral",
+      "offset": 2111,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2252,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 6,
+      "value": "\"rate\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2927,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 3047,
+      "length": 19,
+      "value": "\"preUtteranceDelay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3114,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "FloatLiteral",
+      "offset": 3202,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 3300,
+      "length": 20,
+      "value": "\"postUtteranceDelay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "FloatLiteral",
+      "offset": 3459,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 3834,
+      "length": 7,
+      "value": "\"style\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/AVSpeechUtterance_ext.swift",
+      "kind": "StringLiteral",
+      "offset": 3846,
+      "length": 8,
+      "value": "\"polite\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 290,
+      "length": 3,
+      "value": "1.8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2264,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2560,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "Dictionary",
+      "offset": 3256,
+      "length": 29,
+      "value": "[(\"event\", \"wipedownPerformed\")]"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4639,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4653,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4782,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4998,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5484,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6303,
+      "length": 8,
+      "value": "\"SNOOZE\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6399,
+      "length": 4,
+      "value": "99.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6406,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6461,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6487,
+      "length": 27,
+      "value": "\"SNOOZE FOR \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6509,
+      "length": 3,
+      "value": "\" MIN\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7721,
+      "length": 18,
+      "value": "\"WipedownHandMask\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9514,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10046,
+      "length": 31,
+      "value": "\"KMSWipedownMainViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 29,
+      "value": "\"LilitabSDK.KMSWipedownMainViewController\""
+    }
+  ]
+}
