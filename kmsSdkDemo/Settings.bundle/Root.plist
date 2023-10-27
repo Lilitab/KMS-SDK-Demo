@@ -8,11 +8,11 @@
 	<array>
 		<dict>
 			<key>Type</key>
-			<string>PSToggleSwitchSpecifier</string>
+			<string>PSTitleValueSpecifier</string>
 			<key>Title</key>
 			<string>Use Dev Server</string>
 			<key>Key</key>
-			<string>__USE_DEV_SERVER__</string>
+			<string>USE_DEV_SERVER</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>

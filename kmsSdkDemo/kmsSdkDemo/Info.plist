@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>for tablet security on user auth</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>for tablet security through geolocation and geofencing</string>
 	<key>ITSAppUsesNonExemptEncryption</key>

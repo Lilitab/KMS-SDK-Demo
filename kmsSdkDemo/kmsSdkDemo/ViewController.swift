@@ -149,7 +149,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "startServices"
         btnTextViewDesc.text = "startServices is the required command to initiate KMS services. Command should be executed as part of app initialization. startServices verifies tablet authorization, launches registration wizard if needed, initiates portal communication and, with that communication, provides KMS services."
         callTextViewDesc.text = "let resp:String = KMS.singleton().startServices()"
-        respTextViewDesc.text = "// no response //"
+        respTextViewDesc.text = "// tap PLACE to send command //"
     }
     
     @IBAction func selectWhoAmIPress(_ sender: Any) {
@@ -160,7 +160,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "whoAmI"
         btnTextViewDesc.text = "Returns a dictionary containing the tablet/user\nregistration coordinates (EnterpriseID, GroupID,\nTabletID, UserID) or “Not Registered”.\n\n\n\n\n \n\n\n\n"
         callTextViewDesc.text = "let whoRespDict:NSMutableDictionary = KMS.singleton().whoAmI()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
         
         lastButton = ActiveButton.whoAmI
     }
@@ -172,7 +172,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "showControls"
         btnTextViewDesc.text = "Displays KMS controls. Pulldown header includes\ngeofence status icon, KMS menu, KMS info icon\nand, if docked, dock status icon and unlock\nbutton. Footer includes tablet coordinates and\nportal login access. Display of KMS controls will\nrevert to that specified in 'Show KMS Controls'\nportal setting after 5 minutes."
         callTextViewDesc.text = "KMS.singleton().showControls()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n \n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n \n\n\n\n"
         btn_showControls.titleLabel?.textColor = .black
         
         lastButton = ActiveButton.showControls
@@ -186,7 +186,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "hideControls"
         btnTextViewDesc.text = "Hides KMS controls. Pulldown header includes\ngeofence status icon, KMS menu, KMS info icon\nand, if docked, dock status icon and unlock\nbutton. Footer includes tablet coordinates and\nportal login access. Display of KMS controls will\nrevert to that specified in 'Show KMS Controls'\nportal setting after 5 minutes."
         callTextViewDesc.text = "KMS.singleton().hideControls()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n \n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n \n\n\n\n"
         
         lastButton = ActiveButton.hideControls
     }
@@ -200,7 +200,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "openPortal"
         btnTextViewDesc.text = "Launches portal login screen in overlay webview.\nUseful for administrative portal access from the\nkiosk. Webview dismissed when portal exited.\n\n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().openPortal()\n\n\n\n\n\n\n\n \n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectUserAuthPressed(_ sender: Any) {
@@ -212,7 +212,7 @@ class ViewController: UIViewController {
 
         btnTextViewDesc.text = "Launches the User Auth Interface which prompts a\nuser to enter their PIN. Supports the use case\nwhere user-specific application access is desired.\nUse ClearUser to clear the active user, as when\ntablet is returned to a shared asset pool. User\nidentities are created and managed in the portal."
         callTextViewDesc.text = "KMS.singleton().userAuth()\n\n\n\n\n\n\n\n \n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectClearUserPressed(_ sender: Any) {
@@ -223,7 +223,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "clearUser()"
         btnTextViewDesc.text = "Use ClearUser to clear the active user, as when\ntablet is returned to a shared asset pool. User\nidentities are created and managed in the portal.\n\n \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().clearUser()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectdockPairingStatusPressed(_ sender: Any) {
@@ -234,7 +234,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "dockPairingStatus"
         btnTextViewDesc.text = "Launches Pairing Status wizard, used to pair\nSmartDOCK Connect modules, convey BLE Pairing\nStatus, and troubleshoot BLE communication\nissues. Returns a DockPairingInfo dictionary.\n\n\n \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().dockPairingStatus()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectdockPairingInfoPressed(_ sender: Any) {
@@ -245,7 +245,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "dockPairingInfo"
         btnTextViewDesc.text = "Returns a dictionary of pairing status indicators:\nisBluetoothEnabled, isPaired (is tablet currently\npaired/bonded with a SmartDOCK Connect\nModule), isConnected (is tablet currently\nconnected with bonded module), isCommunicating\n(are the tablet and dock actively communicating).\nNote that head unit must be docked for\nisConnected or isCommunicating to be true. \n\n\n\n"
         callTextViewDesc.text = "let dict:NSMutableDictionary = KMS.singleton().dockPairingInfo()\nif (dict != nil) {\n  print(\"resp=\\(dict)\")\n}\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectdockUnlockPressed(_ sender: Any) {
@@ -256,7 +256,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "dockUnlock"
         btnTextViewDesc.text = "Initiates dock unlock, with or without PIN Pad\nauthentication, depending on portal setting.\nRequires that the tablet be docked to and\ncommunicating with a Lilitab SmartDOCK.\n\n\n \n\n\n\n"
         callTextViewDesc.text = "let resp:String = KMS.singleton().dockUnlock()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectUnlockButtonStatePressed(_ sender: Any) {
@@ -267,7 +267,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "unlockButtonState"
         btnTextViewDesc.text = "Returns unlock button state. State options include:\n'Press to Unlock' (docked, locked and\ncommunicating with dock), 'Unlocked' (unlocked\nfrom dock), 'Stall when Locking', 'Stall when\nUnlocking', 'Lost Communication' (unexpected\nloss of communication while docked and locked),\n'Resetting' (firmware update in progress), or 'Not\nAvailable' (tablet has not been docked). \n\n\n\n"
         callTextViewDesc.text = "let resp:String = KMS.singleton().unlockButtonState()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectDockStatusPressed(_ sender: Any) {
@@ -278,7 +278,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "dockStatus"
         btnTextViewDesc.text = "Returns a dock status dictionary for the dock to\nwhich tablet is docked. Dictionary includes: Dock\nUDID, Dock ID, Hardware Type, Hardware Version,\nFirmware Version, Current State, Motor Ring\nNeutral, Lock Ring Locked, Lock Ring Unlocked,\nCharging, Stalled, Head Present, Wall Power. If\ntablet is not docked, returns 'Head Present:No'.\n \n\n\n\n"
         callTextViewDesc.text = "let dict = KMS.singleton().dockStatus()\nif (dict != nil) {\n  print(\"resp=\\(dict)\")\n}\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectDockInfoPressed(_ sender: Any) {
@@ -289,7 +289,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "dockInfo"
         btnTextViewDesc.text = "Given a valid Dock UDID in same group, returns a\ndictionary containing the following dock\ninformation parameters: Dock ID, Hardware Type,\nHardware Version, Firmware Version, Deploy Date,\nLast Update, Status.\n"
         callTextViewDesc.text = "var dict:[String:String]? = KMS.singleton().dockInfo() as NSDictionary? as? [String: String] = KMS.singleton().dockInfo()\nif (dict != nil) {\n  print(\"dict=\\(dict)\") \n}\nelse {\n  print(\"no dock found\")\n}\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n \n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n \n\n\n\n"
     }
     
     @IBAction func selectPostMetricPressed(_ sender: Any) {
@@ -301,7 +301,7 @@ class ViewController: UIViewController {
         btnTextViewDesc.text = "Retrieves metric data from the KMS\nportal. Metrics must be defined in the portal\nbefore use. Metrics allow kiosk performance\nstatistics to be tracked by device and over time.\nGetMetric returns the accumulated value of a\nspecified metric over a specified timerange.\n \n\n\n\n"
         
         callTextViewDesc.text = "let resp:String = KMS.singleton().postMetric(\"Clicks\", value: \"1\") \nprint(\"resp = \\(resp)\") "
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectGetMetricPressed(_ sender: Any) {
@@ -312,8 +312,8 @@ class ViewController: UIViewController {
         binBtnDesc.text = "getMetric"
         btnTextViewDesc.text = "Posts metric data to the KMS\nportal. Metrics must be defined in the portal\nbefore use. Metrics allow kiosk performance\nstatistics to be tracked by device and over time.\nGetMetric returns the accumulated value of a\nspecified metric over a specified timerange.\n \n\n\n\n"
         
-        callTextViewDesc.text = "let dict:[String:String]? = KMS.singleton().getMetric(\"Clicks\") as NSDictionary? as? [String: String] \n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        callTextViewDesc.text = "/* get Clicks metric within last 10 minutes */\nlet minPosixVal = (Int)(Date().timeIntervalSince1970 - (60 * 10));\nlet maxPosixVal = (Int)(Date().timeIntervalSince1970);\nlet dict:[String:String]? = KMS.singleton().getMetric(\"Clicks\"), minPosix: minPosixVal, maxPosix: maxPosixVal) as NSDictionary? as? [String: String] \n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectConfigStorePressed(_ sender: Any) {
@@ -323,8 +323,8 @@ class ViewController: UIViewController {
         
         binBtnDesc.text = "configStore"
         btnTextViewDesc.text = "Stores tablet-specific configuration values. Functionality is designed to facilitate configuration/customization/calibration of individual kiosks while running the same app. \n\n\n\n"
-        callTextViewDesc.text = "var configVals: [String: Any] = [:]\nconfigVals[\"colorkey1\"] = 808080\nconfigVals[\"colorkey2\"] = 404040\nconfigVals[\"colorkey3\"] = \"threeGreen\"\nlet dict:[String:String]? = KMS.singleton().configStore(\"colorPrefs3\", configValues:configVals) as NSDictionary? as? [String: String]"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        callTextViewDesc.text = "var configVals: [String: Any] = [:]\nconfigVals[\"dateKey1\"] = *dateNow*\nconfigVals[\"colorkey1\"] = 808080\nconfigVals[\"colorkey2\"] = 404040\nconfigVals[\"colorkey3\"] = \"threeGreen\"\nlet dict:[String:String]? = KMS.singleton().configStore(\"colorPrefs3\", configValues:configVals) as NSDictionary? as? [String: String]"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectConfigGetPressed(_ sender: Any) {
@@ -335,7 +335,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "configGet"
         btnTextViewDesc.text = "Retrieves tablet-specific configuration values. Functionality is designed to facilitate configuration/customization/calibration of individual kiosks while running the same app. \n\n\n\n"
         callTextViewDesc.text = "let dict:[String:String]? = KMS.singleton().configGet(\"colorPrefs3\") as NSDictionary? as? [String: String] \n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectDatastoreStorePressed(_ sender: Any) {
@@ -346,7 +346,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "datastoreStore"
         btnTextViewDesc.text = "DataStore functions facilitate sharing of data between tablets within an enterprise. The database has a dynamic structure that accepts and displays integer, decimal, currency, POSIX, string, list, and sum data types. Lists are nested tables within a record that can contain any set of other data types. Sum is a special data type that totals a numeric column of list data, such as the total amount of an order. Data is indexed and searchable, both programmatically from KMS-enabled apps and administratively from the KMS portal. \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().datastoreStore()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectDatastoreSearchPressed(_ sender: Any) {
@@ -357,7 +357,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "datastoreSearch"
         btnTextViewDesc.text = "DataStore functions facilitate sharing of data between tablets within an enterprise. The database has a dynamic structure that accepts and displays integer, decimal, currency, POSIX, string, list, and sum data types. Lists are nested tables within a record that can contain any set of other data types. Sum is a special data type that totals a numeric column of list data, such as the total amount of an order. Data is indexed and searchable, both programmatically from KMS-enabled apps and administratively from the KMS portal. \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().datastoreSearch()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectDatastoreGetPressed(_ sender: Any) {
@@ -368,7 +368,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "datastoreGet"
         btnTextViewDesc.text = "DataStore functions facilitate sharing of data between tablets within an enterprise. The database has a dynamic structure that accepts and displays integer, decimal, currency, POSIX, string, list, and sum data types. Lists are nested tables within a record that can contain any set of other data types. Sum is a special data type that totals a numeric column of list data, such as the total amount of an order. Data is indexed and searchable, both programmatically from KMS-enabled apps and administratively from the KMS portal. \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().datastoreGet()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectDatastoreDeletePressed(_ sender: Any) {
@@ -379,7 +379,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "datastoreDelete"
         btnTextViewDesc.text = "DataStore functions facilitate sharing of data between tablets within an enterprise. The database has a dynamic structure that accepts and displays integer, decimal, currency, POSIX, string, list, and sum data types. Lists are nested tables within a record that can contain any set of other data types. Sum is a special data type that totals a numeric column of list data, such as the total amount of an order. Data is indexed and searchable, both programmatically from KMS-enabled apps and administratively from the KMS portal. \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().datastoreDelete()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectPostEventPressed(_ sender: Any) {
@@ -390,7 +390,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "postEvent"
         btnTextViewDesc.text = "Posts an event of type 'AppEvent' to the portal Event Log. Events are timestamped, include tablet coordinates, and are searchable in the portal. \n\n\n\n"
         callTextViewDesc.text = "let resp:String = KMS.singleton().postEvent(\"the event message\") \nprint(\"resp = \\(resp)\") \n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectGeofenceStatusPressed(_ sender: Any) {
@@ -401,7 +401,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "geofenceStatus"
         btnTextViewDesc.text = "Returns geolocation permission status and geofence state for requesting tablet. \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().geofenceStatus()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     @IBAction func selectWipedownNowPressed(_ sender: Any) {
@@ -412,7 +412,7 @@ class ViewController: UIViewController {
         binBtnDesc.text = "wipedownNow"
         btnTextViewDesc.text = "call wipedown now\n \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().wipedownNow()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     
     @IBAction func selectWipedownStatusPressed(_ sender: Any) {
@@ -423,25 +423,25 @@ class ViewController: UIViewController {
         binBtnDesc.text = "wipedownStatus"
         btnTextViewDesc.text = "call wipedown status\n \n\n\n\n"
         callTextViewDesc.text = "KMS.singleton().wipedownStatus()\n\n\n\n\n\n\n\n"
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
     // -----------------------------------------------------------------------------
 
     @IBAction func clearButtonPress(_ sender: Any) {
-        respTextViewDesc.text = "// no response //\n\n\n\n\n\n\n\n"
+        respTextViewDesc.text = "// tap PLACE to send command //\n\n\n\n\n\n\n\n"
     }
 
     // -----------------------------------------------------------------------------
 
     func call_startServices() {
-        NSLog("startSvc pressed")
+        //NSLog("startSvc pressed")
         let resp:String = KMS.singleton().startServices()
         self.respTextViewDesc.text = "resp = "
         self.respTextViewDesc.text?.append(resp)
     }
     
     func call_whoAmI() {
-        NSLog("who button pressed")
+        //NSLog("who button pressed")
         
         let whoRespDict:NSMutableDictionary = KMS.singleton().whoAmI()
         
@@ -501,8 +501,8 @@ class ViewController: UIViewController {
         
         respStr.append(fromDict(dict:dockPairInfoRespDict, key:"error"))
                 
-        print("dockPairingInfo str=\(respStr)")
-        self.respTextViewDesc.text = "resp = \n\(respStr)"
+        //print("dockPairingInfo str=\(respStr)")
+        self.respTextViewDesc.text = "resp = [\n\(respStr)]"
     }
     
     func call_dockUnlock() {
@@ -550,13 +550,13 @@ class ViewController: UIViewController {
     }
     
     func call_dockInfo() {
-        NSLog("dockInfo button pressed")
+        //NSLog("dockInfo button pressed")
 
         var resp:String = ""
 
         let dict:[String:String]? = KMS.singleton().dockInfo() as NSDictionary? as? [String: String]
 
-        print("dockInfo dict=\(String(describing: dict))")
+        //print("dockInfo dict=\(String(describing: dict))")
         
         if (dict != nil) {
             getRespFromDict(dict, &resp)
@@ -590,11 +590,15 @@ class ViewController: UIViewController {
     
     
     func call_getMetric() {
-        NSLog("call_getMetric button pressed")
+        //NSLog("call_getMetric button pressed")
 
         var resp:String = ""
-        let dict:[String:String]? = KMS.singleton().getMetric("Clicks") as NSDictionary? as? [String: String]
-        NSLog("getMetric dict = \(dict)")
+        
+        let minPosixVal = (Int)(Date().timeIntervalSince1970 - (60 * 10));
+        let maxPosixVal = (Int)(Date().timeIntervalSince1970);
+        
+        let dict:[String:String]? = KMS.singleton().getMetric("Clicks", minPosix: minPosixVal, maxPosix: maxPosixVal) as NSDictionary? as? [String: String]
+        //NSLog("getMetric dict = \(dict)")
         
         if (dict != nil) {
             getRespFromDict(dict, &resp)
@@ -607,11 +611,17 @@ class ViewController: UIViewController {
     }
     
     func call_configStore() {
-        NSLog("call_configStore button pressed")
+        //NSLog("call_configStore button pressed")
                 
         var resp:String = ""
         
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "y, MMM d, HH:mm:ss"
+        let dateStr = dateFormatter.string(from: date)
+        
         var configVals: [String: Any] = [:]
+        configVals["dateKey1"] = dateStr
         configVals["colorkey1"] = 808080
         configVals["colorkey2"] = 404040
         configVals["colorkey3"] = "threeGreen"
@@ -622,10 +632,10 @@ class ViewController: UIViewController {
     }
     
     func call_configGet() {
-        NSLog("call_configGet button pressed")
+        //NSLog("call_configGet button pressed")
         var resp:String = ""
         let dict:[String:String]? = KMS.singleton().configGet("colorPrefs3") as NSDictionary? as? [String: String]
-        NSLog("configDict dict = \(dict)")
+        //NSLog("configDict dict = \(dict)")
         
         if (dict != nil) {
             getRespFromDict(dict, &resp)
@@ -664,7 +674,7 @@ class ViewController: UIViewController {
     }
     
     func call_geofenceStatus() {
-        NSLog("call geofencStatus button pressed")
+        //NSLog("call geofencStatus button pressed")
 
         var resp:String = ""
 
@@ -686,13 +696,13 @@ class ViewController: UIViewController {
     }
     
     func call_wipedownStatus() {
-        NSLog("call wipedownStatus button pressed")
+        //NSLog("call wipedownStatus button pressed")
 
         var resp:String = ""
 
         let dict:[String:Any]? = KMS.singleton().wipedownStatus() as NSDictionary? as? [String: Any]
 
-        print("wipedownStatus dict=\(String(describing: dict))")
+        //print("wipedownStatus dict=\(String(describing: dict))")
         
         if (dict != nil) {
             getRespFromDictStringAny(dict, &resp)

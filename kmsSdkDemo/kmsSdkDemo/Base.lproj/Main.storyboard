@@ -92,13 +92,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="64" id="8d0-3Q-OCR"/>
                                                             <constraint firstAttribute="width" constant="350" id="BhU-ip-82t"/>
-                                                            <constraint firstItem="HWq-Kr-9BG" firstAttribute="centerY" secondItem="UPS-qm-wcF" secondAttribute="centerY" id="ji1-68-eYC">
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                        <integer key="value" value="25"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </constraint>
+                                                            <constraint firstItem="HWq-Kr-9BG" firstAttribute="centerY" secondItem="UPS-qm-wcF" secondAttribute="centerY" id="ji1-68-eYC"/>
                                                             <constraint firstItem="HWq-Kr-9BG" firstAttribute="centerX" secondItem="UPS-qm-wcF" secondAttribute="centerX" id="zwf-Qd-u2M"/>
                                                         </constraints>
                                                     </view>
@@ -1067,6 +1061,11 @@
                                         </constraints>
                                         <viewLayoutGuide key="contentLayoutGuide" id="gNz-Rb-Ria"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="ZyO-Lr-KgZ"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Qsl-tN-C9a"/>
+                                            </mask>
+                                        </variation>
                                     </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -1292,6 +1291,11 @@
                             <constraint firstItem="CP4-7f-7kx" firstAttribute="leading" secondItem="0l4-yf-fcT" secondAttribute="leading" id="wUW-m2-pMj"/>
                             <constraint firstItem="CP4-7f-7kx" firstAttribute="trailing" secondItem="4O3-pW-Ywx" secondAttribute="leading" id="zR0-qL-uhQ"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="N5F-38-eJy"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="binBtnDesc" destination="a24-mD-e3K" id="5cW-uQ-ch4"/>
