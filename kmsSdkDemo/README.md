@@ -12,6 +12,9 @@ Lilitab reserves the right to update the KMS SDK periodically at its own discret
 
 KMS DEMO Sdk illustrates various ways in which the LilitabSDK can be called. (Most of which are used after a tablet is registered in KMS)
 
+For more details on how to use LilitabSDK, please refer to: [SDK Reference Guide](https://lilitabkmspdfs.s3.us-west-2.amazonaws.com/SDK+Reference+Guide+v4.03.pdf)
+For SmartDOCK Connect, please refer to: [SmartDOCK Connect Quick Start Guide](https://lilitabkmspdfs.s3.us-west-2.amazonaws.com/Lilitab+SmartDOCK+Connect+Quick+Start+Guide%2C+v1.00.pdf)
+
 **Build Notes**
 
 1. clone the KMS SDK Demo repository located at: https://github.com/Lilitab/KMS-SDK-Demo.git

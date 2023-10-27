@@ -30,7 +30,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		AJKZu/iFF3nb4XOcIgv40UpsboU=
+		3JLt91ygrRh7hpIpGdkNQT7syK0=
 		</data>
 		<key>BLEPairingStatus1ViewController.nib</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>KMSMenuViewController.nib</key>
 		<data>
-		5hiyoC6uE9Tx5zqi4giT5MtDTQI=
+		+ympHsLi6992ise9/TaE/YwWK/A=
 		</data>
 		<key>KMSPinpadViewController.nib</key>
 		<data>
@@ -338,7 +338,7 @@
 		</data>
 		<key>LilitabMenuViewController.nib</key>
 		<data>
-		vHVFCOOa7HHZE0KtlBu5BEuuHUk=
+		zulykdLCcXRyIK7QlXBHhcuQ9zA=
 		</data>
 		<key>LilitabSignatureOverlayView.nib</key>
 		<data>
@@ -366,7 +366,7 @@
 		</data>
 		<key>Modules/LilitabSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		HwLMNvmE3rvgaAJ6GIEXCXKr3W8=
+		yU5/jBYpVNeuQSUS6hT7VZRA/oU=
 		</data>
 		<key>Modules/LilitabSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -382,7 +382,7 @@
 		</data>
 		<key>Modules/LilitabSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XZkYZVRcn9ZSCAbvTOt+6FVX7Ew=
+		QjyrE7x9JScEt7hY01IfKcql7pU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -485,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F57G95PgPXpjZA+jZsVAlXZnMoQ9mJ2LFXmboAeM6P4=
+			fdATLH4NJXj2FWTwgSJO9YUXzaucuktWRTWD2pzDocI=
 			</data>
 		</dict>
 		<key>BLEPairingStatus1ViewController.nib</key>
@@ -933,7 +933,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DD7MAHhK22HMIM7oKsyJaNH8hA0AhjznOCO1P+/gxOM=
+			r3fNX0orfxEpGOXBElR2e+XyIOOsBnp9EPkzhZ7mP8k=
 			</data>
 		</dict>
 		<key>KMSPinpadViewController.nib</key>
@@ -1017,7 +1017,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YjynOLEUV0PGqPkUzYNSmfzEdlLd8FNYwGPavHfXQ+g=
+			MaNUjvAmIBEUCv1Mynr/GyUGNwIuSRZpEpxtIQNN0aA=
 			</data>
 		</dict>
 		<key>LilitabSignatureOverlayView.nib</key>
@@ -1066,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vd+KOiKevI/yOjLl2NjpF8ny0i9ffMeFjYPJD6Lwu1E=
+			rjj29XQUNNiNuf5Hja5Na+CSSUwC+m0cTomtUfaeQTw=
 			</data>
 		</dict>
 		<key>Modules/LilitabSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1094,7 +1094,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jpmas1wuhx0oHhFDq4Z27RB6pEZb/0aFPougAnIspm8=
+			iUv7sEfplwBGyS9Py+VXJu2aiNuCTYqxWA2jxThwqQM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
