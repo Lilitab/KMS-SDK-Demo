@@ -2911,7 +2911,7 @@
       "kind": "FloatLiteral",
       "offset": 8949,
       "length": 3,
-      "value": "2.0"
+      "value": "3.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
@@ -3968,7 +3968,7 @@
       "kind": "FloatLiteral",
       "offset": 31900,
       "length": 3,
-      "value": "6.0"
+      "value": "7.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
@@ -4556,7 +4556,7 @@
       "kind": "FloatLiteral",
       "offset": 7422,
       "length": 3,
-      "value": "1.0"
+      "value": "3.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",

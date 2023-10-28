@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A0E365A2AEC77DD00C5473C /* LilitabSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0E36582AEC77D500C5473C /* LilitabSDK.xcframework */; };
-		5A0E365B2AEC77E000C5473C /* LilitabSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0E36582AEC77D500C5473C /* LilitabSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A0E365E2AEC8A3600C5473C /* LilitabSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0E365C2AEC8A2E00C5473C /* LilitabSDK.xcframework */; };
+		5A0E365F2AEC8A3800C5473C /* LilitabSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0E365C2AEC8A2E00C5473C /* LilitabSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A1AE5D92A7D8220005C0D53 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A1AE5D82A7D8220005C0D53 /* Settings.bundle */; };
 		5AC093652AD5F5FC00C7A91E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AC093642AD5EA5800C7A91E /* README.md */; };
 		5AEF0F112A843E9D00B4C67C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF0F102A843E9D00B4C67C /* RoundButton.swift */; };
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A0E365B2AEC77E000C5473C /* LilitabSDK.xcframework in Embed Frameworks */,
+				5A0E365F2AEC8A3800C5473C /* LilitabSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A0E36582AEC77D500C5473C /* LilitabSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LilitabSDK.xcframework; sourceTree = "<group>"; };
+		5A0E365C2AEC8A2E00C5473C /* LilitabSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LilitabSDK.xcframework; sourceTree = "<group>"; };
 		5A1AE5D82A7D8220005C0D53 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		5AC093642AD5EA5800C7A91E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5AEF0F102A843E9D00B4C67C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0E365A2AEC77DD00C5473C /* LilitabSDK.xcframework in Frameworks */,
+				5A0E365E2AEC8A3600C5473C /* LilitabSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				5AC093642AD5EA5800C7A91E /* README.md */,
-				5A0E36582AEC77D500C5473C /* LilitabSDK.xcframework */,
+				5A0E365C2AEC8A2E00C5473C /* LilitabSDK.xcframework */,
 				5A1AE5D82A7D8220005C0D53 /* Settings.bundle */,
 				5AFF3AF82A7ACC2E00810687 /* kmsSdkDemo */,
 				5AFF3AF72A7ACC2E00810687 /* Products */,
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 36;
 				DEVELOPMENT_TEAM = A5E3G7BXTH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,7 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 36;
 				DEVELOPMENT_TEAM = A5E3G7BXTH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
