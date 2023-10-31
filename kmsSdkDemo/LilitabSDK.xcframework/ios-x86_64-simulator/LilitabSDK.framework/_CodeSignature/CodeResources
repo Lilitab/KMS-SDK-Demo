@@ -290,7 +290,7 @@
 		</data>
 		<key>KMSMenuViewController.nib</key>
 		<data>
-		74KX2AijNT73iwqSHBdu79jLdos=
+		D6uJI2LaCHAue1HU/JeSXxCpK4U=
 		</data>
 		<key>KMSPinpadViewController.nib</key>
 		<data>
@@ -338,7 +338,7 @@
 		</data>
 		<key>LilitabMenuViewController.nib</key>
 		<data>
-		8CSiNxKdU0XxCieMLFvr2ylDLsk=
+		Pynr2f34YjY/KqJSX81cxPM9LO4=
 		</data>
 		<key>LilitabSignatureOverlayView.nib</key>
 		<data>
@@ -366,7 +366,7 @@
 		</data>
 		<key>Modules/LilitabSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mS44DAnUGzV/TucahKnEoGl2w/I=
+		NYvuqY2HO3/YLZMOh01YVaRF5iw=
 		</data>
 		<key>Modules/LilitabSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -382,7 +382,7 @@
 		</data>
 		<key>Modules/LilitabSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nFfM6IK2Jbk4RMmE2mTkibsDmPQ=
+		x7UP+pFh6ftmsOxRSQs+4S9Wx6M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -933,7 +933,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWa926h3qkHjClFAlvLPeMT/7W9VEmojzdn0Wr8QbNw=
+			A6SvFWt2iE/JEpApzHHl2uPnfavCgeopDikvBVa7HvY=
 			</data>
 		</dict>
 		<key>KMSPinpadViewController.nib</key>
@@ -1017,7 +1017,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPCO6I/S4cSHv6CgBUzRei+zUr88zEC0/1ojoveF978=
+			MAYaKkpty46QGz2I70/PG8swOS6a0/TGIGY9aAJu8Q0=
 			</data>
 		</dict>
 		<key>LilitabSignatureOverlayView.nib</key>
@@ -1066,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ll34p5P+4VJqpIhD3+ko/P091wNlf8mQXrIkeMEVtPA=
+			Zb6zcKNbcJ4jZu9jz1JntRzcogbaNslpcsACZwf1/Q8=
 			</data>
 		</dict>
 		<key>Modules/LilitabSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1094,7 +1094,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdceXhH020ZRHZ73qAwNbb2pDW0wD62SSEwn0NobzQE=
+			Djvsftw71yQonRePJeLVQY/MhahHCmfX3Nk1boaxMMg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

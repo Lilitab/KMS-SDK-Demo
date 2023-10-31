@@ -2923,1052 +2923,1073 @@
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9249,
+      "offset": 9800,
       "length": 26,
       "value": "\"JSL:dockDict=\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9274,
+      "offset": 9825,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9326,
+      "offset": 9877,
       "length": 9,
       "value": "\"powered\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9399,
+      "offset": 9950,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9457,
+      "offset": 10008,
       "length": 10,
       "value": "\"unlocked\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9500,
+      "offset": 10051,
       "length": 25,
       "value": "\"JSL:dockStatus:unlocked\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9638,
+      "offset": 10189,
       "length": 13,
       "value": "\"PINUnlocked\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9813,
+      "offset": 10364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10002,
+      "offset": 10554,
       "length": 21,
       "value": "\"5:unlocking,stalled\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10056,
+      "offset": 10608,
       "length": 34,
       "value": "\"JSL:dockStatus:unlocking,stalled\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10219,
+      "offset": 10771,
       "length": 16,
       "value": "\"PINStallUnlock\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10397,
+      "offset": 10949,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10593,
+      "offset": 11146,
       "length": 13,
       "value": "\"lock-button\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10641,
+      "offset": 11194,
       "length": 13,
       "value": "\"lock-button\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10670,
+      "offset": 11223,
       "length": 11,
       "value": "\"lost-comm\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10795,
+      "offset": 11320,
+      "length": 30,
+      "value": "\"JSL:lock-button == lost-comm\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11416,
       "length": 13,
       "value": "\"PINLostComm\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10970,
+      "offset": 11513,
+      "length": 42,
+      "value": "\"JSL:image = \""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11554,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11159,
+      "offset": 11663,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11698,
+      "length": 32,
+      "value": "\"JSL:applying PINLostComm image\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11919,
       "length": 9,
       "value": "\"locking\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11209,
+      "offset": 11969,
       "length": 4,
       "value": "\"NO\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11265,
+      "offset": 12025,
       "length": 25,
       "value": "\"ProblemUnlockingNoPower\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11452,
+      "offset": 12212,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12100,
+      "offset": 12861,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12177,
+      "offset": 12938,
       "length": 12,
       "value": "\"needNewPin\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12262,
+      "offset": 13023,
       "length": 4,
       "value": "\"ok\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12319,
+      "offset": 13080,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12373,
+      "offset": 13134,
       "length": 13,
       "value": "\"PIN Updated\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12467,
+      "offset": 13228,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12628,
+      "offset": 13389,
       "length": 10,
       "value": "\"WIPEDOWN\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12765,
+      "offset": 13526,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12869,
+      "offset": 13630,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12952,
+      "offset": 13713,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12993,
+      "offset": 13754,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12998,
+      "offset": 13759,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13026,
+      "offset": 13787,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13030,
+      "offset": 13791,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13062,
+      "offset": 13823,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13207,
+      "offset": 13968,
       "length": 6,
       "value": "\"fail\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13449,
+      "offset": 14210,
       "length": 10,
       "value": "\"WIPEDOWN\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13923,
+      "offset": 14857,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14000,
+      "offset": 14934,
       "length": 12,
       "value": "\"needNewPin\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14085,
+      "offset": 15019,
       "length": 4,
       "value": "\"ok\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14142,
+      "offset": 15076,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14196,
+      "offset": 15130,
       "length": 13,
       "value": "\"PIN Updated\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14290,
+      "offset": 15224,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14835,
+      "offset": 15769,
       "length": 34,
       "value": "\"JSL:cleaningMode=\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14868,
+      "offset": 15802,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15101,
+      "offset": 16035,
       "length": 10,
       "value": "\"WIPEDOWN\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15269,
+      "offset": 16203,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17058,
+      "offset": 17992,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17158,
+      "offset": 18092,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17237,
+      "offset": 18171,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17278,
+      "offset": 18212,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17283,
+      "offset": 18217,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17311,
+      "offset": 18245,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17315,
+      "offset": 18249,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17347,
+      "offset": 18281,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17559,
+      "offset": 18493,
       "length": 6,
       "value": "\"fail\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18059,
+      "offset": 18993,
       "length": 10,
       "value": "\"WIPEDOWN\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18395,
+      "offset": 19329,
       "length": 8,
       "value": "\"reason\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18419,
+      "offset": 19353,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18775,
+      "offset": 19709,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18899,
+      "offset": 19833,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18973,
+      "offset": 19907,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19105,
+      "offset": 20039,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19576,
+      "offset": 20510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "Dictionary",
-      "offset": 19674,
+      "offset": 20608,
       "length": 15,
       "value": "[(\"timeout\", \"*\")]"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20050,
+      "offset": 20984,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20285,
+      "offset": 21219,
       "length": 35,
       "value": "\"DBVerifyUserPinResultNotification\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21710,
+      "offset": 22644,
       "length": 30,
       "value": "\"KMSWipedownPINViewController\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21843,
+      "offset": 22777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22127,
+      "offset": 23061,
       "length": 30,
       "value": "\"KMSWipedownPINViewController\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22916,
+      "offset": 23850,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23005,
+      "offset": 23939,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23042,
+      "offset": 23976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24147,
+      "offset": 25081,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24161,
+      "offset": 25095,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24397,
+      "offset": 25331,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24443,
+      "offset": 25377,
       "length": 10,
       "value": "\"User ID \""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24512,
+      "offset": 25446,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24676,
+      "offset": 25610,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24723,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 25044,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25058,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 25319,
+      "offset": 25657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25659,
+      "offset": 25978,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25673,
+      "offset": 25992,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25962,
+      "offset": 26253,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 26593,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26607,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 26896,
       "length": 34,
       "value": "\"DBVerifyUserPinCacheNotification\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26060,
+      "offset": 26994,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26150,
+      "offset": 27084,
       "length": 10,
       "value": "\"resetpin\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26258,
+      "offset": 27192,
       "length": 19,
       "value": "\"PINs do not match\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 26361,
+      "offset": 27295,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26375,
+      "offset": 27309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26640,
+      "offset": 27574,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 26725,
+      "offset": 27659,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26739,
+      "offset": 27673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27010,
+      "offset": 27944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27172,
+      "offset": 28106,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27258,
+      "offset": 28192,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27272,
+      "offset": 28206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27680,
+      "offset": 28614,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27694,
+      "offset": 28628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27912,
+      "offset": 28846,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27953,
+      "offset": 28887,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28321,
+      "offset": 29255,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28370,
+      "offset": 29304,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28417,
+      "offset": 29351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28464,
+      "offset": 29398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28511,
+      "offset": 29445,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28558,
+      "offset": 29492,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28605,
+      "offset": 29539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28651,
+      "offset": 29585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28698,
+      "offset": 29632,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28747,
+      "offset": 29681,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28798,
+      "offset": 29732,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28936,
+      "offset": 29870,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29065,
+      "offset": 29999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29112,
+      "offset": 30046,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29156,
+      "offset": 30090,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29230,
+      "offset": 30164,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29294,
+      "offset": 30228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29358,
+      "offset": 30292,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29475,
+      "offset": 30409,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29524,
+      "offset": 30458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29543,
+      "offset": 30477,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29592,
+      "offset": 30526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29611,
+      "offset": 30545,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29652,
+      "offset": 30586,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29701,
+      "offset": 30635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29720,
+      "offset": 30654,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29761,
+      "offset": 30695,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29810,
+      "offset": 30744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29829,
+      "offset": 30763,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29870,
+      "offset": 30804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29919,
+      "offset": 30853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29980,
+      "offset": 30914,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30029,
+      "offset": 30963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30172,
+      "offset": 31106,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30305,
+      "offset": 31239,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30428,
+      "offset": 31362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30618,
+      "offset": 31552,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30685,
+      "offset": 31619,
       "length": 10,
       "value": "\"WIPEDOWN\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30823,
+      "offset": 31757,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30865,
+      "offset": 31799,
       "length": 12,
       "value": "\"PINCleaned\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31051,
+      "offset": 31986,
       "length": 10,
       "value": "\"USERAUTH\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31190,
+      "offset": 32125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31232,
+      "offset": 32167,
       "length": 9,
       "value": "\"PINAuth\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31415,
+      "offset": 32351,
       "length": 8,
       "value": "\"UNLOCK\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31540,
+      "offset": 32476,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31582,
+      "offset": 32518,
       "length": 15,
       "value": "\"DockUnlocking\""
-    },
-    {
-      "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 31900,
-      "length": 3,
-      "value": "7.0"
     },
     {
       "filePath": "\/Users\/johnlindstrom\/Documents\/kms_ios_mike_main2\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
