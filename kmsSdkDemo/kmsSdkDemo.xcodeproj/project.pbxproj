@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A0E36762AF15ED900C5473C /* LilitabSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0E36742AF15ED000C5473C /* LilitabSDK.xcframework */; };
-		5A0E36772AF15EDB00C5473C /* LilitabSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0E36742AF15ED000C5473C /* LilitabSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A1AE5D92A7D8220005C0D53 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A1AE5D82A7D8220005C0D53 /* Settings.bundle */; };
+		5A8930D22B20F43B00BCF4A7 /* LilitabSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */; };
+		5A8930D32B20F43B00BCF4A7 /* LilitabSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5AC093652AD5F5FC00C7A91E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AC093642AD5EA5800C7A91E /* README.md */; };
 		5AEF0F112A843E9D00B4C67C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF0F102A843E9D00B4C67C /* RoundButton.swift */; };
 		5AFF3AFA2A7ACC2E00810687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF3AF92A7ACC2E00810687 /* AppDelegate.swift */; };
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A0E36772AF15EDB00C5473C /* LilitabSDK.xcframework in Embed Frameworks */,
+				5A8930D32B20F43B00BCF4A7 /* LilitabSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,8 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A0E36742AF15ED000C5473C /* LilitabSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LilitabSDK.xcframework; sourceTree = "<group>"; };
 		5A1AE5D82A7D8220005C0D53 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LilitabSDK.xcframework; sourceTree = "<group>"; };
 		5AC093642AD5EA5800C7A91E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5AEF0F102A843E9D00B4C67C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		5AFF3AF62A7ACC2E00810687 /* kmsSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kmsSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0E36762AF15ED900C5473C /* LilitabSDK.xcframework in Frameworks */,
+				5A8930D22B20F43B00BCF4A7 /* LilitabSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 		5AFF3AED2A7ACC2E00810687 = {
 			isa = PBXGroup;
 			children = (
+				5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */,
 				5AC093642AD5EA5800C7A91E /* README.md */,
-				5A0E36742AF15ED000C5473C /* LilitabSDK.xcframework */,
 				5A1AE5D82A7D8220005C0D53 /* Settings.bundle */,
 				5AFF3AF82A7ACC2E00810687 /* kmsSdkDemo */,
 				5AFF3AF72A7ACC2E00810687 /* Products */,
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 42;
+				CURRENT_PROJECT_VERSION = 43;
 				DEVELOPMENT_TEAM = A5E3G7BXTH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,7 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 42;
+				CURRENT_PROJECT_VERSION = 43;
 				DEVELOPMENT_TEAM = A5E3G7BXTH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
