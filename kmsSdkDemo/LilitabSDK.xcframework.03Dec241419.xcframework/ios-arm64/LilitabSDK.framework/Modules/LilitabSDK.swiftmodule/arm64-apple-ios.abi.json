@@ -1,0 +1,4026 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LilitabSound",
+        "printedName": "LilitabSound",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cueSoundFrom",
+            "printedName": "cueSoundFrom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)cueSoundFrom:",
+            "mangledName": "$s10LilitabSDK0A5SoundC03cueC4FromySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteSounds",
+            "printedName": "deleteSounds(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)deleteSounds:",
+            "mangledName": "$s10LilitabSDK0A5SoundC12deleteSoundsySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playSoundFrom",
+            "printedName": "playSoundFrom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)playSoundFrom:",
+            "mangledName": "$s10LilitabSDK0A5SoundC04playC4FromySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "audioPlayerDidFinishPlaying",
+            "printedName": "audioPlayerDidFinishPlaying(_:successfully:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioPlayer",
+                "printedName": "AVFAudio.AVAudioPlayer",
+                "usr": "c:objc(cs)AVAudioPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)audioPlayerDidFinishPlaying:successfully:",
+            "mangledName": "$s10LilitabSDK0A5SoundC27audioPlayerDidFinishPlaying_12successfullyySo07AVAudioE0C_SbtF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "audioPlayerDidFinishPlaying:successfully:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LilitabSound",
+                "printedName": "LilitabSDK.LilitabSound",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound(im)init",
+            "mangledName": "$s10LilitabSDK0A5SoundCACycfc",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)LilitabSound",
+        "mangledName": "$s10LilitabSDK0A5SoundC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WipedownMonitor",
+        "printedName": "WipedownMonitor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WipedownMonitor",
+                "printedName": "LilitabSDK.WipedownMonitor",
+                "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(cm)sharedInstance",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC14sharedInstanceACyFZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "snoozeCountVal",
+            "printedName": "snoozeCountVal()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)snoozeCountVal",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC14snoozeCountValSiyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNextWipedown",
+            "printedName": "getNextWipedown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getNextWipedown",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC07getNextC0SSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastAlert",
+            "printedName": "getLastAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getLastAlert",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC12getLastAlertSSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastWipedown",
+            "printedName": "getLastWipedown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getLastWipedown",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC07getLastC0SSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWipedownIntervalMins",
+            "printedName": "getWipedownIntervalMins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getWipedownIntervalMins",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC03getC12IntervalMinsSSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSnoozeDurationMins",
+            "printedName": "getSnoozeDurationMins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)getSnoozeDurationMins",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC21getSnoozeDurationMinsSSyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWipedownPINViewControllerForDockUnlock",
+            "printedName": "showWipedownPINViewControllerForDockUnlock(fromStr:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)showWipedownPINViewControllerForDockUnlockFromStr:",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC04showC30PINViewControllerForDockUnlock7fromStrySSSg_tF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "showWipedownPINViewControllerForDockUnlockFromStr:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWipedownPINViewControllerForUserAuth",
+            "printedName": "showWipedownPINViewControllerForUserAuth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)showWipedownPINViewControllerForUserAuth",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC04showC28PINViewControllerForUserAuthyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor(im)setup",
+            "mangledName": "$s10LilitabSDK15WipedownMonitorC5setupyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)WipedownMonitor",
+        "mangledName": "$s10LilitabSDK15WipedownMonitorC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KMSWipedownPINViewController",
+        "printedName": "KMSWipedownPINViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "kmsUserAuthenticated",
+            "printedName": "kmsUserAuthenticated(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)kmsUserAuthenticated::",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC20kmsUserAuthenticatedyySSSg_AEtF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "kmsUserAuthenticated::",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kmsUserPINFailed",
+            "printedName": "kmsUserPINFailed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)kmsUserPINFailed:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC16kmsUserPINFailedyySSSgF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "kmsUserPINFailed:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kmsServiceReachabilityChanged",
+            "printedName": "kmsServiceReachabilityChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)kmsServiceReachabilityChanged:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC29kmsServiceReachabilityChangedyySDys11AnyHashableVypGSgF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "kmsServiceReachabilityChanged:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kmsDockEvent",
+            "printedName": "kmsDockEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KMSDockEvent",
+                "printedName": "LilitabSDK.KMSDockEvent",
+                "usr": "c:@E@KMSDockEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)kmsDockEvent:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC12kmsDockEventyySo07KMSDockH0VF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "kmsDockEvent:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kmsDockStatusUpdate",
+            "printedName": "kmsDockStatusUpdate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)kmsDockStatusUpdate:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC19kmsDockStatusUpdateyySDys11AnyHashableVypGSgF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "kmsDockStatusUpdate:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kmsBarShowAboutView",
+            "printedName": "kmsBarShowAboutView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)kmsBarShowAboutView",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC19kmsBarShowAboutViewyyF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "kmsBarShowAboutView",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)viewDidLoad",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC11viewDidLoadyyF",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)viewWillAppear:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC14viewWillAppearyySbF",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController(im)viewDidDisappear:",
+            "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)KMSWipedownPINViewController",
+        "mangledName": "$s10LilitabSDK28KMSWipedownPINViewControllerC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KMSDockStatusMonitor",
+        "printedName": "KMSDockStatusMonitor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showBleConnectViewController",
+            "printedName": "showBleConnectViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showBleConnectViewController",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC28showBleConnectViewControlleryyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showView6ChangePairingViewController",
+            "printedName": "showView6ChangePairingViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showView6ChangePairingViewController",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC36showView6ChangePairingViewControlleryyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showView4ConnectNotFoundViewController",
+            "printedName": "showView4ConnectNotFoundViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showView4ConnectNotFoundViewController",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC38showView4ConnectNotFoundViewControlleryyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpairBLEDock",
+            "printedName": "unpairBLEDock()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)unpairBLEDock",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC13unpairBLEDockyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initForSDK",
+            "printedName": "initForSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)initForSDK",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC07initForB0yyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleDockStatusNotification",
+            "printedName": "handleDockStatusNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)handleDockStatusNotification",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC010handleDockD12NotificationyyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showPairingStatusDisconnectConfirm",
+            "printedName": "showPairingStatusDisconnectConfirm(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Notification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Notification",
+                    "printedName": "Foundation.Notification",
+                    "usr": "s:10Foundation12NotificationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showPairingStatusDisconnectConfirm:",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC011showPairingD17DisconnectConfirmyy10Foundation12NotificationVSgF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showBLEDockPairingStatus",
+            "printedName": "showBLEDockPairingStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Notification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Notification",
+                    "printedName": "Foundation.Notification",
+                    "usr": "s:10Foundation12NotificationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor(im)showBLEDockPairingStatus:",
+            "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC018showBLEDockPairingD0yy10Foundation12NotificationVSgF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)KMSDockStatusMonitor",
+        "mangledName": "$s10LilitabSDK20KMSDockStatusMonitorC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LilitabSpeech",
+        "printedName": "LilitabSpeech",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error202String",
+            "printedName": "error202String",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error202String",
+            "mangledName": "$s10LilitabSDK0A6SpeechC14error202StringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error202String",
+                "mangledName": "$s10LilitabSDK0A6SpeechC14error202StringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error202IgnoredString",
+            "printedName": "error202IgnoredString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error202IgnoredString",
+            "mangledName": "$s10LilitabSDK0A6SpeechC21error202IgnoredStringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error202IgnoredString",
+                "mangledName": "$s10LilitabSDK0A6SpeechC21error202IgnoredStringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error400UnexpectedString",
+            "printedName": "error400UnexpectedString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error400UnexpectedString",
+            "mangledName": "$s10LilitabSDK0A6SpeechC24error400UnexpectedStringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error400UnexpectedString",
+                "mangledName": "$s10LilitabSDK0A6SpeechC24error400UnexpectedStringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error400NoDataString",
+            "printedName": "error400NoDataString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cpy)error400NoDataString",
+            "mangledName": "$s10LilitabSDK0A6SpeechC20error400NoDataStringSSvpZ",
+            "moduleName": "LilitabSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(cm)error400NoDataString",
+                "mangledName": "$s10LilitabSDK0A6SpeechC20error400NoDataStringSSvgZ",
+                "moduleName": "LilitabSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "speakFromDictionary",
+            "printedName": "speakFromDictionary(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(im)speakFromDictionary:",
+            "mangledName": "$s10LilitabSDK0A6SpeechC19speakFromDictionaryySSSDyS2SGF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "speechSynthesizer",
+            "printedName": "speechSynthesizer(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechSynthesizer",
+                "printedName": "AVFAudio.AVSpeechSynthesizer",
+                "usr": "c:objc(cs)AVSpeechSynthesizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVSpeechUtterance",
+                "printedName": "AVFAudio.AVSpeechUtterance",
+                "usr": "c:objc(cs)AVSpeechUtterance"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(im)speechSynthesizer:didFinishSpeechUtterance:",
+            "mangledName": "$s10LilitabSDK0A6SpeechC17speechSynthesizer_9didFinishySo08AVSpeechE0C_So0H9UtteranceCtF",
+            "moduleName": "LilitabSDK",
+            "objc_name": "speechSynthesizer:didFinishSpeechUtterance:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LilitabSpeech",
+                "printedName": "LilitabSDK.LilitabSpeech",
+                "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech(im)init",
+            "mangledName": "$s10LilitabSDK0A6SpeechCACycfc",
+            "moduleName": "LilitabSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)LilitabSpeech",
+        "mangledName": "$s10LilitabSDK0A6SpeechC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KMSServerViewMonitor",
+        "printedName": "KMSServerViewMonitor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initForSDK",
+            "printedName": "initForSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSServerViewMonitor(im)initForSDK",
+            "mangledName": "$s10LilitabSDK20KMSServerViewMonitorC07initForB0yyF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testAppBecameActive",
+            "printedName": "testAppBecameActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Notification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Notification",
+                    "printedName": "Foundation.Notification",
+                    "usr": "s:10Foundation12NotificationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LilitabSDK@objc(cs)KMSServerViewMonitor(im)testAppBecameActive:",
+            "mangledName": "$s10LilitabSDK20KMSServerViewMonitorC19testAppBecameActiveyy10Foundation12NotificationVSgF",
+            "moduleName": "LilitabSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LilitabSDK@objc(cs)KMSServerViewMonitor",
+        "mangledName": "$s10LilitabSDK20KMSServerViewMonitorC",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "LilitabSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownInstructionsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 80,
+      "value": "\"<html><body bgcolor=\"#FFFFFF\"><\/body><BR><BR>Wipe screen with cleaner<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownButton.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 17,
+      "value": "\"LilitabSDK.KMSWipedownButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 957,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/WipeDownMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 21,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 11,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 18,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 18,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 19,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 8,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 17,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 21,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 11,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 18,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 18,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 19,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 8,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 17,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 251,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 26,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 21,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 16,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 11,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 18,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 18,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 19,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 8,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 17,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2683,
+      "length": 40,
+      "value": "\"Scan Badge or Enter PIN to Unlock Dock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2760,
+      "length": 46,
+      "value": "\"Scane Badge or Enter PIN to Confirm Cleaning\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2905,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2938,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2974,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3017,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3052,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3219,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4116,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4149,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownPINViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23744,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 25,
+      "value": "\"KMSWipedown_ShowUpdated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 27,
+      "value": "\"KMSWipedown_SnoozeUpdated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedown.swift",
+      "kind": "StringLiteral",
+      "offset": 2675,
+      "length": 24,
+      "value": "\"KMSWipedown_urlUpdated\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanView.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 14,
+      "value": "\"LilitabSDK.QRCodeScanView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 15,
+      "value": "\"202: accepted\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 40,
+      "value": "\"202: accepted; some attributes ignored\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 29,
+      "value": "\"400: unexpected data format\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/LilitabSpeech\/LilitabSpeech.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 14,
+      "value": "\"400: no data\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 12,
+      "value": "\"LilitabSDK.JamfIconView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 12,
+      "value": "\"LilitabSDK.JamfIconView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/JamfIcon\/JamfIconView.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 12,
+      "value": "\"LilitabSDK.JamfIconView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 26,
+      "value": "\"QRCodeScanViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 720,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/QRCodeView\/QRCodeScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 755,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 290,
+      "length": 3,
+      "value": "1.8"
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Documents\/GITHUBMERGEWORK2024_SDKWORK\/kms_ios\/LilitabSDK\/LilitabSDK\/KMSWipedown\/KMSWipedownMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 29,
+      "value": "\"LilitabSDK.KMSWipedownMainViewController\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 19,
+      "value": "\"About-Lilitab-KMS\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 16,
+      "value": "\"About-SDK-Demo\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 20,
+      "value": "\"BeginPairingButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 17,
+      "value": "\"BlankLongButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 16,
+      "value": "\"Button-Overlay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1658,
+      "length": 16,
+      "value": "\"Cancel-No-Text\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 12,
+      "value": "\"Capture-BL\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1944,
+      "length": 12,
+      "value": "\"Capture-BR\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2094,
+      "length": 17,
+      "value": "\"Capture-No-Text\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 12,
+      "value": "\"Capture-RL\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2381,
+      "length": 12,
+      "value": "\"Capture-TB\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2522,
+      "length": 12,
+      "value": "\"Capture-TR\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 12,
+      "value": "\"Catpure-TL\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2811,
+      "length": 15,
+      "value": "\"ChangePairing\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2970,
+      "length": 19,
+      "value": "\"ChangePairingLong\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 20,
+      "value": "\"ChangePairingShort\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3289,
+      "length": 14,
+      "value": "\"ChevronAlert\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3435,
+      "length": 13,
+      "value": "\"ChevronMask\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3576,
+      "length": 11,
+      "value": "\"ChevronOK\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3725,
+      "length": 16,
+      "value": "\"ChevronWarning\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3869,
+      "length": 11,
+      "value": "\"CloseIcon\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4024,
+      "length": 19,
+      "value": "\"CloseIconHalfSize\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4184,
+      "length": 18,
+      "value": "\"ClosePressed.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4342,
+      "length": 17,
+      "value": "\"ConfirmFWDialog\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4493,
+      "length": 14,
+      "value": "\"ContinueLong\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4646,
+      "length": 17,
+      "value": "\"CopyPressed.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4793,
+      "length": 12,
+      "value": "\"Disconnect\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4942,
+      "length": 16,
+      "value": "\"Dismiss_Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5097,
+      "length": 17,
+      "value": "\"Dismiss_Overlay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5250,
+      "length": 15,
+      "value": "\"DockUnlocking\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5407,
+      "length": 18,
+      "value": "\"DomainNotAllowed\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5556,
+      "length": 13,
+      "value": "\"Exit-Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5700,
+      "length": 13,
+      "value": "\"Eye-Circles\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5842,
+      "length": 12,
+      "value": "\"FWLoad.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5991,
+      "length": 16,
+      "value": "\"FWLoadBack.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6156,
+      "length": 22,
+      "value": "\"FWLoadProgBarEnd.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6320,
+      "length": 18,
+      "value": "\"FirmwareDialogYN\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6474,
+      "length": 15,
+      "value": "\"ForgetPairing\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6628,
+      "length": 17,
+      "value": "\"ForgetPairing 1\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6781,
+      "length": 15,
+      "value": "\"GeolocateMenu\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6928,
+      "length": 13,
+      "value": "\"GeolocateNG\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7075,
+      "length": 14,
+      "value": "\"GeolocateOFF\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7221,
+      "length": 13,
+      "value": "\"GeolocateOK\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7376,
+      "length": 18,
+      "value": "\"GeolocatePending\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7524,
+      "length": 12,
+      "value": "\"HelpButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7666,
+      "length": 12,
+      "value": "\"HomeButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7805,
+      "length": 11,
+      "value": "\"Jamf-Icon\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7957,
+      "length": 18,
+      "value": "\"LargeBtn_Overlay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8110,
+      "length": 15,
+      "value": "\"Large_Overlay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8270,
+      "length": 20,
+      "value": "\"LimitOneTablet.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8440,
+      "length": 23,
+      "value": "\"LockView.green-locked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8617,
+      "length": 25,
+      "value": "\"LockView.green-unlocked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8788,
+      "length": 21,
+      "value": "\"LockView.red-locked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8959,
+      "length": 23,
+      "value": "\"LockView.red-unlocked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9115,
+      "length": 14,
+      "value": "\"Menubar_Logo\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9259,
+      "length": 12,
+      "value": "\"MessageBox\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9413,
+      "length": 18,
+      "value": "\"MessageBoxButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9567,
+      "length": 15,
+      "value": "\"NoHomePageSet\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9722,
+      "length": 17,
+      "value": "\"NoNetworkErrror\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9876,
+      "length": 16,
+      "value": "\"NotPaired copy\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10026,
+      "length": 14,
+      "value": "\"OpenSettings\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10164,
+      "length": 9,
+      "value": "\"PINAuth\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10303,
+      "length": 12,
+      "value": "\"PINCleaned\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10447,
+      "length": 13,
+      "value": "\"PINLostComm\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10598,
+      "length": 16,
+      "value": "\"PINStallUnlock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10746,
+      "length": 13,
+      "value": "\"PINUnlocked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10892,
+      "length": 14,
+      "value": "\"Pairing-Fail\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11045,
+      "length": 17,
+      "value": "\"Pairing-Success\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11218,
+      "length": 25,
+      "value": "\"ProblemUnlockingNoPower\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11410,
+      "length": 31,
+      "value": "\"ProblemUnlockingNoPowerLg.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11569,
+      "length": 11,
+      "value": "\"ResetComm\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11725,
+      "length": 20,
+      "value": "\"Signature-Complete\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11895,
+      "length": 23,
+      "value": "\"Signature-Gray-Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12070,
+      "length": 24,
+      "value": "\"Signature-Green-Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12242,
+      "length": 22,
+      "value": "\"Signature-Red-Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12395,
+      "length": 13,
+      "value": "\"Signature-X\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12544,
+      "length": 15,
+      "value": "\"SmartDockLogo\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12693,
+      "length": 14,
+      "value": "\"StalePairing\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 12864,
+      "length": 26,
+      "value": "\"StallWhenUnlockingLg.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13014,
+      "length": 9,
+      "value": "\"Status1\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13156,
+      "length": 14,
+      "value": "\"Status1 copy\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13294,
+      "length": 9,
+      "value": "\"Status2\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13435,
+      "length": 13,
+      "value": "\"Status2Orig\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13584,
+      "length": 15,
+      "value": "\"Status2backup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13723,
+      "length": 9,
+      "value": "\"Status3\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 13864,
+      "length": 13,
+      "value": "\"Status3ORIG\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14013,
+      "length": 15,
+      "value": "\"Status3backup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14152,
+      "length": 9,
+      "value": "\"Status4\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14297,
+      "length": 15,
+      "value": "\"Status4backup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14436,
+      "length": 9,
+      "value": "\"Status5\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14581,
+      "length": 15,
+      "value": "\"Status5backup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14720,
+      "length": 9,
+      "value": "\"Status6\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 14861,
+      "length": 13,
+      "value": "\"Status6Orig\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15010,
+      "length": 15,
+      "value": "\"Status6backup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15149,
+      "length": 9,
+      "value": "\"Status7\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15294,
+      "length": 15,
+      "value": "\"Status7backup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15441,
+      "length": 13,
+      "value": "\"StatusBlank\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15605,
+      "length": 23,
+      "value": "\"SwipeAnimation_bottom\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15792,
+      "length": 30,
+      "value": "\"SwipeAnimation_cancel_button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 15973,
+      "length": 23,
+      "value": "\"SwipeAnimation_middle\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16141,
+      "length": 20,
+      "value": "\"SwipeAnimation_top\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16312,
+      "length": 23,
+      "value": "\"TestReader-BlueButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16476,
+      "length": 18,
+      "value": "\"TestReader-Frame\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16646,
+      "length": 23,
+      "value": "\"TestReaderPlaceholder\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16816,
+      "length": 21,
+      "value": "\"Troubleshoot_Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 16963,
+      "length": 10,
+      "value": "\"TryAgain\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17102,
+      "length": 12,
+      "value": "\"Unlock-Key\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17249,
+      "length": 15,
+      "value": "\"Unlock-Keypad\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17406,
+      "length": 19,
+      "value": "\"Unlock-Show-Badge\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17560,
+      "length": 15,
+      "value": "\"Unlock_Button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17713,
+      "length": 16,
+      "value": "\"WipedownButton\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 17865,
+      "length": 15,
+      "value": "\"WipedownClose\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18016,
+      "length": 15,
+      "value": "\"WipedownGreen\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18165,
+      "length": 14,
+      "value": "\"WipedownHand\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18321,
+      "length": 18,
+      "value": "\"WipedownHandMask\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18473,
+      "length": 14,
+      "value": "\"WipedownIcon\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18649,
+      "length": 28,
+      "value": "\"WipedownInstructionOverlay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18833,
+      "length": 25,
+      "value": "\"WipedownInstructionsMap\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18994,
+      "length": 15,
+      "value": "\"WipedownKiosk\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19143,
+      "length": 14,
+      "value": "\"WipedownMain\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19291,
+      "length": 14,
+      "value": "\"WipedownPIN0\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19439,
+      "length": 14,
+      "value": "\"WipedownPIN1\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19587,
+      "length": 14,
+      "value": "\"WipedownPIN2\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19735,
+      "length": 14,
+      "value": "\"WipedownPIN3\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19883,
+      "length": 14,
+      "value": "\"WipedownPIN4\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20031,
+      "length": 14,
+      "value": "\"WipedownPIN5\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20179,
+      "length": 14,
+      "value": "\"WipedownPIN6\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20327,
+      "length": 14,
+      "value": "\"WipedownPIN7\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20475,
+      "length": 14,
+      "value": "\"WipedownPIN8\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20623,
+      "length": 14,
+      "value": "\"WipedownPIN9\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20781,
+      "length": 19,
+      "value": "\"WipedownPINCancel\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 20944,
+      "length": 19,
+      "value": "\"WipedownPINDelete\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21103,
+      "length": 17,
+      "value": "\"WipedownPINMain\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21260,
+      "length": 17,
+      "value": "\"WipedownPINMask\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21415,
+      "length": 16,
+      "value": "\"WipedownPINPad\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21575,
+      "length": 19,
+      "value": "\"WipedownPINWindow\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21726,
+      "length": 13,
+      "value": "\"WipedownRed\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21881,
+      "length": 18,
+      "value": "\"WipedownUnderlay\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22049,
+      "length": 22,
+      "value": "\"WipedownUnderlayRing\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22215,
+      "length": 19,
+      "value": "\"beepConnectedDock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22382,
+      "length": 21,
+      "value": "\"beepConnectedDockXX\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22535,
+      "length": 13,
+      "value": "\"captureMask\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22684,
+      "length": 15,
+      "value": "\"disconnectSDC\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22839,
+      "length": 17,
+      "value": "\"disconnectSDCXX\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22979,
+      "length": 9,
+      "value": "\"dl-back\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 23113,
+      "length": 10,
+      "value": "\"dl-front\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 23262,
+      "length": 17,
+      "value": "\"help-background\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 23404,
+      "length": 10,
+      "value": "\"ins-back\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 23541,
+      "length": 11,
+      "value": "\"ins-front\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 23694,
+      "length": 18,
+      "value": "\"isHeadUnitDocked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 23866,
+      "length": 24,
+      "value": "\"isHeadUnitDockedbackup\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24012,
+      "length": 8,
+      "value": "\"keypad\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24167,
+      "length": 22,
+      "value": "\"kms-menu-blue-button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24327,
+      "length": 17,
+      "value": "\"kms-menu-bottom\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24482,
+      "length": 17,
+      "value": "\"kms-menu-button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24646,
+      "length": 22,
+      "value": "\"kms-menu-gray-button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24817,
+      "length": 23,
+      "value": "\"kms-menu-green-button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 24972,
+      "length": 14,
+      "value": "\"kms-menu-mid\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 25131,
+      "length": 21,
+      "value": "\"kms-menu-red-button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 25297,
+      "length": 21,
+      "value": "\"kms-menu-rusure-box\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 25467,
+      "length": 23,
+      "value": "\"kms-menu-rusure-lgbox\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 25622,
+      "length": 14,
+      "value": "\"kms-menu-top\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 25785,
+      "length": 23,
+      "value": "\"kms-menu-white-button\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 25946,
+      "length": 17,
+      "value": "\"kms-submenu-top\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 26100,
+      "length": 16,
+      "value": "\"lilitab-locked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 26258,
+      "length": 19,
+      "value": "\"lilitab-lost-comm\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 26431,
+      "length": 25,
+      "value": "\"lilitab-nopower-locking\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 26614,
+      "length": 27,
+      "value": "\"lilitab-nopower-unlocking\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 26794,
+      "length": 24,
+      "value": "\"lilitab-resetsmartdock\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 26961,
+      "length": 19,
+      "value": "\"lilitab-resetting\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 27134,
+      "length": 25,
+      "value": "\"lilitab-stalled-locking\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 27317,
+      "length": 27,
+      "value": "\"lilitab-stalled-unlocking\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 27485,
+      "length": 18,
+      "value": "\"lilitab-unlocked\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 27646,
+      "length": 19,
+      "value": "\"lilitab-unlocking\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 27814,
+      "length": 23,
+      "value": "\"magtek-ble-help-blank\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 27984,
+      "length": 22,
+      "value": "\"magtek-ble-help-full\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 28149,
+      "length": 19,
+      "value": "\"msgConfirmPIN.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 28313,
+      "length": 20,
+      "value": "\"msgEnterOrScan.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 28472,
+      "length": 17,
+      "value": "\"msgEnterPIN.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 28624,
+      "length": 15,
+      "value": "\"msgNewPIN.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 28766,
+      "length": 11,
+      "value": "\"msgP1.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 28904,
+      "length": 11,
+      "value": "\"msgP2.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29042,
+      "length": 11,
+      "value": "\"msgP3.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29180,
+      "length": 11,
+      "value": "\"msgP4.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29330,
+      "length": 17,
+      "value": "\"msgTryAgain.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29486,
+      "length": 17,
+      "value": "\"msgUnlocked.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29638,
+      "length": 15,
+      "value": "\"msgUserID.png\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29793,
+      "length": 19,
+      "value": "\"pair_0_delay-0.5s\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 29954,
+      "length": 20,
+      "value": "\"pair_1_delay-0.25s\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30111,
+      "length": 17,
+      "value": "\"pair_2_delay-3s\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30262,
+      "length": 14,
+      "value": "\"ppBackground\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30399,
+      "length": 9,
+      "value": "\"qr-code\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30556,
+      "length": 22,
+      "value": "\"starprint-help-blank\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30724,
+      "length": 21,
+      "value": "\"starprint-help-full\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30888,
+      "length": 19,
+      "value": "\"starprint-printer\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 31049,
+      "length": 18,
+      "value": "\"troubleShootView\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 31218,
+      "length": 23,
+      "value": "\"troubleShootView copy\""
+    },
+    {
+      "filePath": "\/Users\/johnlindstrom\/Library\/Developer\/Xcode\/DerivedData\/LilitabSDK-aenoypzgfwnqclefygcwybgrposb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LilitabSDK\/IntermediateBuildFilesPath\/LilitabSDK.build\/Release-iphoneos\/LilitabSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 31366,
+      "length": 10,
+      "value": "\"upc-code\""
+    }
+  ]
+}

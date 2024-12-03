@@ -5,14 +5,41 @@
 //  Created by John Lindstrom on 8/2/23.
 //
 
-/*
- 
- */
-
 import UIKit
 import LilitabSDK
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,  KMSEventDelegate  {
+    
+    func kmsBarShowAboutView() {
+        NSLog("[show your about view dialog here]")
+        //NOTE: the kmsSdkDemo app is recognized by the SDK and therefore shows that "about SDK demo" menu, but you will need  to render your own 'about app' dialog
+        //TODO: render "about SDKDemo" within this App, I guess... (although, that is kinda "extra"...)
+    }
+    
+    func kmsDockEvent(_ dockEvent: KMSDockEvent) {
+        let eventStr = KMS.formatDockEvent(toString: dockEvent)!
+        NSLog("kmsDockEvent=\(eventStr)")
+        
+        if (dockEvent == KMSDockEvent.AlertLostComm) {
+            NSLog("kmsDockEvent, dockEvent==AlertLostComm!")
+        }
+    }
+    
+    func kmsDockStatusUpdate(_ dict: [AnyHashable : Any]!) {
+        NSLog("kmsDockStatusDidUpdate, dockStatus(dict)=\(dict!)")
+    }
+    
+    func kmsUserAuthenticated(_ userId: String!, _ userName: String!) {
+        NSLog("kmsUserAuthenticated, userId=\(String(describing: userId)), userName=\(String(describing: userName))")
+    }
+    
+    func kmsUserPINFailed(_ reason: String!) {
+        NSLog("kmsUserPINFailed, reason= \(String(describing: reason))")
+    }
+    
+    func kmsServiceReachabilityChanged(_ dict: [AnyHashable : Any]!) {
+        NSLog("kmsServiceReachabilityChanged, dict=\(String(describing: dict))")
+    }
     
     enum ActiveButton {
         
@@ -98,6 +125,15 @@ class ViewController: UIViewController {
         
         //start with startServices button selected
         selectStartSvcsPressed(self)
+        
+        //KMS.singleton().kmsEventsDelegate = self;      << TODO: remove this option!!!
+        //[KMS.singleton() addKMSEventDelegate:self];
+        KMS.singleton().addEventDelegate(self);
+    }
+    
+    @objc func testCall1(_ notification: NSNotification) {
+        NSLog("testCall1 - from eventListener")
+        NSLog("testCall1, notificationInfo=\(String(describing: notification.userInfo))")
     }
     
     //for demo app, turning off status bar
@@ -477,6 +513,7 @@ class ViewController: UIViewController {
     func call_userAuth() {
         let resp:String = KMS.singleton().userAuth()
         self.respTextViewDesc.text = "resp = \(resp)\n"
+        //NSLog("call_userAuth")
     }
     
     func call_clearUser() {

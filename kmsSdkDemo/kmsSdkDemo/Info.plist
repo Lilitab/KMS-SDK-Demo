@@ -2,16 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSCameraUsageDescription</key>
-	<string>for tablet security on user auth</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>for tablet security through geolocation and geofencing</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>for tablet security through geolocation and geofencing</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>sdk reference microphone access, although not used via sdk</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -38,6 +30,9 @@
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>external-accessory</string>
 		<string>fetch</string>
 		<string>location</string>
 		<string>remote-notification</string>

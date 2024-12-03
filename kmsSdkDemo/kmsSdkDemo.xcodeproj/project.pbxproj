@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A182EEC2CFFBFE400C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A182EEA2CFFBFE000C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework */; };
+		5A182EED2CFFBFE400C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A182EEA2CFFBFE000C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A1AE5D92A7D8220005C0D53 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A1AE5D82A7D8220005C0D53 /* Settings.bundle */; };
-		5A8930D22B20F43B00BCF4A7 /* LilitabSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */; };
-		5A8930D32B20F43B00BCF4A7 /* LilitabSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5AC093652AD5F5FC00C7A91E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AC093642AD5EA5800C7A91E /* README.md */; };
 		5AEF0F112A843E9D00B4C67C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF0F102A843E9D00B4C67C /* RoundButton.swift */; };
 		5AFF3AFA2A7ACC2E00810687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF3AF92A7ACC2E00810687 /* AppDelegate.swift */; };
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A8930D32B20F43B00BCF4A7 /* LilitabSDK.xcframework in Embed Frameworks */,
+				5A182EED2CFFBFE400C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,8 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A182EEA2CFFBFE000C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LilitabSDK.xcframework.03Dec241419.xcframework; sourceTree = "<group>"; };
 		5A1AE5D82A7D8220005C0D53 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LilitabSDK.xcframework; sourceTree = "<group>"; };
 		5AC093642AD5EA5800C7A91E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5AEF0F102A843E9D00B4C67C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		5AFF3AF62A7ACC2E00810687 /* kmsSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kmsSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8930D22B20F43B00BCF4A7 /* LilitabSDK.xcframework in Frameworks */,
+				5A182EEC2CFFBFE400C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		5AFF3AED2A7ACC2E00810687 = {
 			isa = PBXGroup;
 			children = (
-				5A8930D02B20F43600BCF4A7 /* LilitabSDK.xcframework */,
+				5A182EEA2CFFBFE000C991B9 /* LilitabSDK.xcframework.03Dec241419.xcframework */,
 				5AC093642AD5EA5800C7A91E /* README.md */,
 				5A1AE5D82A7D8220005C0D53 /* Settings.bundle */,
 				5AFF3AF82A7ACC2E00810687 /* kmsSdkDemo */,
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 43;
+				CURRENT_PROJECT_VERSION = 57;
 				DEVELOPMENT_TEAM = A5E3G7BXTH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +338,10 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "KMS SDK Demo";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "for SmartDOCK Connect and other accessories";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "for SmartDOCK Connect and other accessories";
-				INFOPLIST_KEY_NSCameraUsageDescription = "for access control by user badge scanning and for general QR Code scanning";
+				INFOPLIST_KEY_NSCameraUsageDescription = "for tablet security on user auth";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "for tablet security through geolocation and geofencing";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "for tablet security through geolocation and geofencing";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "sdk reference microphone access, although not used via sdk";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -365,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 43;
+				CURRENT_PROJECT_VERSION = 57;
 				DEVELOPMENT_TEAM = A5E3G7BXTH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,7 +379,10 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "KMS SDK Demo";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "for SmartDOCK Connect and other accessories";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "for SmartDOCK Connect and other accessories";
-				INFOPLIST_KEY_NSCameraUsageDescription = "for access control by user badge scanning and for general QR Code scanning";
+				INFOPLIST_KEY_NSCameraUsageDescription = "for tablet security on user auth";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "for tablet security through geolocation and geofencing";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "for tablet security through geolocation and geofencing";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "sdk reference microphone access, although not used via sdk";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
